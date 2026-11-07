@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Shade of Naxxramas",
+  "card": {
+    "id": "FP1_005",
+    "dbfId": 1784,
+    "name": "낙스라마스의 망령",
+    "text": "<b>은신</b>\n내 턴이 시작될 때, +1/+1을 얻습니다.",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 12,
+    "set": "NAXX",
+    "rarity": "EPIC",
+    "race": "언데드",
+    "races": [
+      "UNDEAD"
+    ],
+    "spellSchool": "",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "installed": true,
+    "portrait": "R7_a012_D.psd:1f99e8a801f387e4db8bc5f3454a6a31",
+    "flavor": "전설도 아니면서 그룰보다 높은 생존력을 자랑합니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>은신</b>\n내 턴이 시작될 때, +1/+1을 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 12,
+    "slug": "naxxramas",
+    "name": "낙스라마스의 저주",
+    "type": "adventure",
+    "englishName": "Naxxramas"
+  },
+  "setOrder": 42,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

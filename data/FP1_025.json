@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Reincarnate",
+  "card": {
+    "id": "FP1_025",
+    "dbfId": 1809,
+    "name": "윤회",
+    "text": "하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다.",
+    "type": "SPELL",
+    "cardClass": "SHAMAN",
+    "classes": [],
+    "nativeSetId": 12,
+    "set": "NAXX",
+    "rarity": "COMMON",
+    "race": "",
+    "races": [],
+    "spellSchool": "NATURE",
+    "cost": 1,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "installed": true,
+    "portrait": "W3_030_D.psd:d2acb81d589a25147b20b42e8950f9cd",
+    "flavor": "여러분, 술사님 윤회 있으시답니다. 뛰지 마세요.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 4
+      }
+    ],
+    "nativeRawText": "하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 12,
+    "slug": "naxxramas",
+    "name": "낙스라마스의 저주",
+    "type": "adventure",
+    "englishName": "Naxxramas"
+  },
+  "setOrder": 42,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

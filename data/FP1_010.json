@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Maexxna",
+  "card": {
+    "id": "FP1_010",
+    "dbfId": 1791,
+    "name": "맥스나",
+    "text": "<b>독성</b>",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 12,
+    "set": "NAXX",
+    "rarity": "LEGENDARY",
+    "race": "야수",
+    "races": [
+      "BEAST"
+    ],
+    "spellSchool": "",
+    "cost": 6,
+    "attack": 2,
+    "health": 8,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "installed": true,
+    "portrait": "r5_a038_D.psd:dfbe5c93853b7c946ac2c636593b9209",
+    "flavor": "맥스나는 사람들이 자신을 \"맵시나\"라고 부르는 걸 싫어합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 363,
+        "name": "독성",
+        "value": 1
+      },
+      {
+        "id": 1429,
+        "name": "전장 황금 하수인 ID",
+        "value": 63781
+      },
+      {
+        "id": 1440,
+        "name": "선술집 단계",
+        "value": 6
+      },
+      {
+        "id": 1594,
+        "name": "전장 야수 분류",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>독성</b>",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 12,
+    "slug": "naxxramas",
+    "name": "낙스라마스의 저주",
+    "type": "adventure",
+    "englishName": "Naxxramas"
+  },
+  "setOrder": 42,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}
