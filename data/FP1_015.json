@@ -80,7 +80,9 @@
       }
     ],
     "nativeRawText": "[x]<b>죽음의 메아리:</b>\n스탈라그가 죽은 상태라면,\n타디우스를 소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-13",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [

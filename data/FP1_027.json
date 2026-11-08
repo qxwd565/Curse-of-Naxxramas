@@ -75,7 +75,9 @@
       }
     ],
     "nativeRawText": "내 턴이 시작될 때,\n이 하수인은 생명력을 모두 회복합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-07-30",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

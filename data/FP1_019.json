@@ -63,7 +63,9 @@
       }
     ],
     "nativeRawText": "[x]<b>모든</b> 하수인을 처치하고\n2/2 나무정령으로\n교체합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-07-23",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [

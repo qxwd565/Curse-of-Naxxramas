@@ -75,7 +75,9 @@
       }
     ],
     "nativeRawText": "<b>죽음의 메아리:</b>\n적 영웅의 생명력을\n#5 회복시킵니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-13",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

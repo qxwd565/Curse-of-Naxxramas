@@ -80,7 +80,9 @@
       }
     ],
     "nativeRawText": "각 턴이 끝날 때, 이번 턴에 죽은 모든 아군 하수인을 소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-20",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

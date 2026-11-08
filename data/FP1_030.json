@@ -90,7 +90,9 @@
       }
     ],
     "nativeRawText": "<b>전투의 함성:</b> 다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-07-30",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

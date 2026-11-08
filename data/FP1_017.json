@@ -80,7 +80,9 @@
       }
     ],
     "nativeRawText": "<b>전투의 함성</b> 하수인의 비용이 (2) 증가합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-07-23",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

@@ -85,7 +85,9 @@
       }
     ],
     "nativeRawText": "<b>도발</b>, <b>죽음의 메아리:</b> 상대편이 덱에서 하수인을 소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-06",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

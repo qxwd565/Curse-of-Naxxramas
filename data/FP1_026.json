@@ -75,7 +75,9 @@
       }
     ],
     "nativeRawText": "<b>죽음의 메아리:</b> 무작위 아군 하수인을 내 손으로 다시 가져옵니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-07-23",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

@@ -68,7 +68,9 @@
       }
     ],
     "nativeRawText": "[x]<b>죽음의 메아리:</b>\n상대편이 카드를 뽑습니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-06",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

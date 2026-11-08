@@ -73,7 +73,9 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ]
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_002",
@@ -154,7 +156,9 @@
       ],
       "relatedDbfIds": [
         1782
-      ]
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_002t",
@@ -214,7 +218,9 @@
           "name": "게임 태그 2542",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_003",
@@ -278,7 +284,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2014-08-20",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_004",
@@ -357,7 +365,9 @@
       "mechanics": [
         "DEATHRATTLE",
         "SECRET"
-      ]
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_005",
@@ -436,7 +446,9 @@
       "mechanics": [
         "TRIGGER_VISUAL",
         "STEALTH"
-      ]
+      ],
+      "releasedAt": "2014-08-20",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_007",
@@ -508,7 +520,9 @@
       ],
       "relatedDbfIds": [
         1787
-      ]
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_007t",
@@ -562,7 +576,9 @@
           "name": "카드 유형",
           "value": 4
         }
-      ]
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_008",
@@ -632,7 +648,9 @@
           "name": "모면",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2014-08-06",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_009",
@@ -716,7 +734,9 @@
       "mechanics": [
         "TAUNT",
         "DEATHRATTLE"
-      ]
+      ],
+      "releasedAt": "2014-08-06",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_010",
@@ -809,7 +829,9 @@
       ],
       "mechanics": [
         "POISONOUS"
-      ]
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_011",
@@ -882,7 +904,9 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ]
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_012",
@@ -969,7 +993,9 @@
       ],
       "relatedDbfIds": [
         1795
-      ]
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_012t",
@@ -1022,7 +1048,9 @@
       ],
       "mechanics": [
         "TAUNT"
-      ]
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_013",
@@ -1100,7 +1128,9 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ]
+      ],
+      "releasedAt": "2014-08-20",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_014",
@@ -1182,7 +1212,9 @@
       "relatedDbfIds": [
         1797,
         1798
-      ]
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_014t",
@@ -1241,7 +1273,9 @@
           "name": "카드 유형",
           "value": 4
         }
-      ]
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_015",
@@ -1323,7 +1357,9 @@
       "relatedDbfIds": [
         1796,
         1798
-      ]
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_016",
@@ -1401,7 +1437,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_017",
@@ -1479,7 +1517,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_018",
@@ -1539,7 +1579,9 @@
       ],
       "mechanics": [
         "SECRET"
-      ]
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_019",
@@ -1599,7 +1641,9 @@
       ],
       "relatedDbfIds": [
         1803
-      ]
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_019t",
@@ -1649,7 +1693,9 @@
           "name": "게임 태그 2831",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_020",
@@ -1709,7 +1755,9 @@
       ],
       "mechanics": [
         "SECRET"
-      ]
+      ],
+      "releasedAt": "2014-08-20",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_021",
@@ -1773,7 +1821,9 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ]
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_022",
@@ -1846,7 +1896,9 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ]
+      ],
+      "releasedAt": "2014-08-06",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_023",
@@ -1910,7 +1962,9 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ]
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_024",
@@ -1989,7 +2043,9 @@
       "mechanics": [
         "TAUNT",
         "DEATHRATTLE"
-      ]
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_025",
@@ -2041,7 +2097,9 @@
           "name": "주문 속성",
           "value": 4
         }
-      ]
+      ],
+      "releasedAt": "2014-08-06",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_026",
@@ -2114,7 +2172,9 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ]
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_027",
@@ -2187,7 +2247,9 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ]
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_028",
@@ -2266,7 +2328,9 @@
       "mechanics": [
         "TRIGGER_VISUAL",
         "DEATHRATTLE"
-      ]
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_029",
@@ -2330,7 +2394,9 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ]
+      ],
+      "releasedAt": "2014-08-06",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_030",
@@ -2418,7 +2484,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
     },
     {
       "id": "FP1_031",
@@ -2501,7 +2569,9 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ]
+      ],
+      "releasedAt": "2014-08-06",
+      "releaseStatus": "verified"
     }
   ]
 }

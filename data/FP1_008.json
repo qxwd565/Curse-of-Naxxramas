@@ -75,7 +75,9 @@
       }
     ],
     "nativeRawText": "<b>모면</b>",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-06",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

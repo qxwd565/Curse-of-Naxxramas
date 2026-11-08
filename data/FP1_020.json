@@ -63,7 +63,9 @@
       }
     ],
     "nativeRawText": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인에게 +3/+2를 부여합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-20",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

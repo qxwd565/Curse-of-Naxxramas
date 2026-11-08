@@ -68,7 +68,9 @@
       }
     ],
     "nativeRawText": "<b>죽음의 메아리:</b> 무작위 아군 하수인에게 생명력을 +3 부여합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-13",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

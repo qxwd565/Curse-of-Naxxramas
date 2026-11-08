@@ -73,7 +73,9 @@
       }
     ],
     "nativeRawText": "<b>죽음의 메아리:</b>\n4/4 네루비안을\n소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-07-23",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [

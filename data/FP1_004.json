@@ -80,7 +80,9 @@
       }
     ],
     "nativeRawText": "<b>죽음의 메아리:</b> 내 덱에 있는 <b>비밀</b>을 시전합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-13",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

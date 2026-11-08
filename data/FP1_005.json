@@ -80,7 +80,9 @@
       }
     ],
     "nativeRawText": "<b>은신</b>\n내 턴이 시작될 때, +1/+1을 얻습니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-20",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

@@ -85,7 +85,9 @@
       }
     ],
     "nativeRawText": "내 하수인들의\n<b>죽음의 메아리</b> 능력이 2번 발동합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-06",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

@@ -68,7 +68,9 @@
       }
     ],
     "nativeRawText": "[x]<b>전투의 함성:</b>\n턴이 끝날 때, 이 하수인을\n복사하여 소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-20",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

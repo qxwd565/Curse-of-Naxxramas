@@ -85,7 +85,9 @@
       }
     ],
     "nativeRawText": "[x]<b>도발</b>, <b>죽음의 메아리:</b>\n<b>도발</b> 능력이 있는 1/2\n수액괴물을 소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-07-30",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [

@@ -75,7 +75,9 @@
       }
     ],
     "nativeRawText": "<b>죽음의 메아리:</b>\n내 손의 무작위 악마를 소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2014-08-06",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],
