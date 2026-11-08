@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "default": {
+    "date": null,
+    "status": "pending"
+  },
+  "prefixes": {},
+  "cards": {
+    "FP1_002": {
+      "date": "2014-07-23",
+      "status": "verified"
+    },
+    "FP1_002t": {
+      "date": "2014-07-23",
+      "status": "verified"
+    },
+    "FP1_007": {
+      "date": "2014-07-23",
+      "status": "verified"
+    },
+    "FP1_007t": {
+      "date": "2014-07-23",
+      "status": "verified"
+    },
+    "FP1_010": {
+      "date": "2014-07-23",
+      "status": "verified"
+    },
+    "FP1_017": {
+      "date": "2014-07-23",
+      "status": "verified"
+    },
+    "FP1_019": {
+      "date": "2014-07-23",
+      "status": "verified"
+    },
+    "FP1_019t": {
+      "date": "2014-07-23",
+      "status": "verified"
+    },
+    "FP1_026": {
+      "date": "2014-07-23",
+      "status": "verified"
+    },
+    "FP1_011": {
+      "date": "2014-07-30",
+      "status": "verified"
+    },
+    "FP1_012": {
+      "date": "2014-07-30",
+      "status": "verified"
+    },
+    "FP1_012t": {
+      "date": "2014-07-30",
+      "status": "verified"
+    },
+    "FP1_018": {
+      "date": "2014-07-30",
+      "status": "verified"
+    },
+    "FP1_024": {
+      "date": "2014-07-30",
+      "status": "verified"
+    },
+    "FP1_027": {
+      "date": "2014-07-30",
+      "status": "verified"
+    },
+    "FP1_030": {
+      "date": "2014-07-30",
+      "status": "verified"
+    },
+    "FP1_008": {
+      "date": "2014-08-06",
+      "status": "verified"
+    },
+    "FP1_009": {
+      "date": "2014-08-06",
+      "status": "verified"
+    },
+    "FP1_022": {
+      "date": "2014-08-06",
+      "status": "verified"
+    },
+    "FP1_025": {
+      "date": "2014-08-06",
+      "status": "verified"
+    },
+    "FP1_029": {
+      "date": "2014-08-06",
+      "status": "verified"
+    },
+    "FP1_031": {
+      "date": "2014-08-06",
+      "status": "verified"
+    },
+    "FP1_001": {
+      "date": "2014-08-13",
+      "status": "verified"
+    },
+    "FP1_004": {
+      "date": "2014-08-13",
+      "status": "verified"
+    },
+    "FP1_014": {
+      "date": "2014-08-13",
+      "status": "verified"
+    },
+    "FP1_014t": {
+      "date": "2014-08-13",
+      "status": "verified"
+    },
+    "FP1_015": {
+      "date": "2014-08-13",
+      "status": "verified"
+    },
+    "FP1_016": {
+      "date": "2014-08-13",
+      "status": "verified"
+    },
+    "FP1_021": {
+      "date": "2014-08-13",
+      "status": "verified"
+    },
+    "FP1_023": {
+      "date": "2014-08-13",
+      "status": "verified"
+    },
+    "FP1_028": {
+      "date": "2014-08-13",
+      "status": "verified"
+    },
+    "FP1_003": {
+      "date": "2014-08-20",
+      "status": "verified"
+    },
+    "FP1_005": {
+      "date": "2014-08-20",
+      "status": "verified"
+    },
+    "FP1_013": {
+      "date": "2014-08-20",
+      "status": "verified"
+    },
+    "FP1_020": {
+      "date": "2014-08-20",
+      "status": "verified"
+    }
+  },
+  "sources": {
+    "wings": "https://hearthstone.wiki.gg/wiki/Curse_of_Naxxramas",
+    "launch": "https://www.etnews.com/20140718000266"
+  }
+}
