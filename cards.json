@@ -22,7 +22,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -73,9 +73,7 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_002",
@@ -97,7 +95,7 @@
       "races": [
         "BEAST"
       ],
-      "race": "야수",
+      "race": "BEAST",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -157,8 +155,14 @@
       "relatedDbfIds": [
         1782
       ],
-      "spellSchool": "",
-      "classes": []
+      "history": [
+        {
+          "before": "2014-12-04",
+          "changes": {
+            "legacyArt": true
+          }
+        }
+      ]
     },
     {
       "id": "FP1_002t",
@@ -180,7 +184,7 @@
         "UNDEAD",
         "BEAST"
       ],
-      "race": "언데드, 야수",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -218,10 +222,7 @@
           "name": "게임 태그 2542",
           "value": 1
         }
-      ],
-      "spellSchool": "",
-      "classes": [],
-      "flavor": ""
+      ]
     },
     {
       "id": "FP1_003",
@@ -232,7 +233,7 @@
       "rarity": "EPIC",
       "collectible": true,
       "cost": 2,
-      "text": "[x]<b>전투의 함성:</b>\n턴이 끝날 때, 이 하수인을\n복사하여 소환합니다.",
+      "text": "<b>전투의 함성:</b>\n턴이 끝날 때, 이 하수인을\n복사하여 소환합니다.",
       "attack": 1,
       "health": 2,
       "durability": 0,
@@ -285,11 +286,7 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ],
-      "race": "",
-      "races": [],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_004",
@@ -311,7 +308,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -368,9 +365,7 @@
       "mechanics": [
         "DEATHRATTLE",
         "SECRET"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_005",
@@ -392,7 +387,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -449,9 +444,7 @@
       "mechanics": [
         "TRIGGER_VISUAL",
         "STEALTH"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_007",
@@ -523,11 +516,7 @@
       ],
       "relatedDbfIds": [
         1787
-      ],
-      "race": "",
-      "races": [],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_007t",
@@ -548,7 +537,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "EXPERT1",
       "nativeTags": [
         {
@@ -581,10 +570,7 @@
           "name": "카드 유형",
           "value": 4
         }
-      ],
-      "spellSchool": "",
-      "classes": [],
-      "flavor": ""
+      ]
     },
     {
       "id": "FP1_008",
@@ -606,7 +592,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -654,9 +640,7 @@
           "name": "모면",
           "value": 1
         }
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_009",
@@ -678,7 +662,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -740,9 +724,7 @@
       "mechanics": [
         "TAUNT",
         "DEATHRATTLE"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_010",
@@ -764,7 +746,7 @@
       "races": [
         "BEAST"
       ],
-      "race": "야수",
+      "race": "BEAST",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -835,9 +817,7 @@
       ],
       "mechanics": [
         "POISONOUS"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_011",
@@ -859,7 +839,7 @@
       "races": [
         "BEAST"
       ],
-      "race": "야수",
+      "race": "BEAST",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -910,9 +890,7 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_012",
@@ -923,7 +901,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 5,
-      "text": "[x]<b>도발</b>, <b>죽음의 메아리:</b>\n<b>도발</b> 능력이 있는 1/2\n수액괴물을 소환합니다.",
+      "text": "<b>도발</b>, <b>죽음의 메아리:</b>\n<b>도발</b> 능력이 있는 1/2\n수액괴물을 소환합니다.",
       "attack": 3,
       "health": 6,
       "durability": 0,
@@ -934,7 +912,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -999,9 +977,7 @@
       ],
       "relatedDbfIds": [
         1795
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_012t",
@@ -1054,12 +1030,7 @@
       ],
       "mechanics": [
         "TAUNT"
-      ],
-      "race": "",
-      "races": [],
-      "spellSchool": "",
-      "classes": [],
-      "flavor": ""
+      ]
     },
     {
       "id": "FP1_013",
@@ -1081,7 +1052,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -1137,9 +1108,7 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_014",
@@ -1150,7 +1119,7 @@
       "rarity": "LEGENDARY",
       "collectible": true,
       "cost": 5,
-      "text": "[x]<b>죽음의 메아리:</b>\n퓨진이 죽은 상태라면,\n타디우스를 소환합니다.",
+      "text": "<b>죽음의 메아리:</b>\n퓨진이 죽은 상태라면,\n타디우스를 소환합니다.",
       "attack": 7,
       "health": 4,
       "durability": 0,
@@ -1161,7 +1130,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -1221,9 +1190,7 @@
       "relatedDbfIds": [
         1797,
         1798
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_014t",
@@ -1244,7 +1211,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -1282,10 +1249,7 @@
           "name": "카드 유형",
           "value": 4
         }
-      ],
-      "spellSchool": "",
-      "classes": [],
-      "flavor": ""
+      ]
     },
     {
       "id": "FP1_015",
@@ -1296,7 +1260,7 @@
       "rarity": "LEGENDARY",
       "collectible": true,
       "cost": 5,
-      "text": "[x]<b>죽음의 메아리:</b>\n스탈라그가 죽은 상태라면,\n타디우스를 소환합니다.",
+      "text": "<b>죽음의 메아리:</b>\n스탈라그가 죽은 상태라면,\n타디우스를 소환합니다.",
       "attack": 4,
       "health": 7,
       "durability": 0,
@@ -1307,7 +1271,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -1367,9 +1331,7 @@
       "relatedDbfIds": [
         1796,
         1798
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_016",
@@ -1391,7 +1353,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -1447,9 +1409,7 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_017",
@@ -1471,7 +1431,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -1527,9 +1487,7 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_018",
@@ -1589,10 +1547,7 @@
       ],
       "mechanics": [
         "SECRET"
-      ],
-      "race": "",
-      "races": [],
-      "classes": []
+      ]
     },
     {
       "id": "FP1_019",
@@ -1603,7 +1558,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 4,
-      "text": "[x]<b>모든</b> 하수인을 처치하고\n2/2 나무정령으로\n교체합니다.",
+      "text": "<b>모든</b> 하수인을 처치하고\n2/2 나무정령으로\n교체합니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -1652,10 +1607,7 @@
       ],
       "relatedDbfIds": [
         1803
-      ],
-      "race": "",
-      "races": [],
-      "classes": []
+      ]
     },
     {
       "id": "FP1_019t",
@@ -1705,12 +1657,7 @@
           "name": "게임 태그 2831",
           "value": 1
         }
-      ],
-      "race": "",
-      "races": [],
-      "spellSchool": "",
-      "classes": [],
-      "flavor": ""
+      ]
     },
     {
       "id": "FP1_020",
@@ -1770,10 +1717,7 @@
       ],
       "mechanics": [
         "SECRET"
-      ],
-      "race": "",
-      "races": [],
-      "classes": []
+      ]
     },
     {
       "id": "FP1_021",
@@ -1837,11 +1781,7 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ],
-      "race": "",
-      "races": [],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_022",
@@ -1863,7 +1803,7 @@
       "races": [
         "DEMON"
       ],
-      "race": "악마",
+      "race": "DEMON",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -1914,9 +1854,7 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_023",
@@ -1980,11 +1918,7 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ],
-      "race": "",
-      "races": [],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_024",
@@ -2006,7 +1940,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -2063,9 +1997,7 @@
       "mechanics": [
         "TAUNT",
         "DEATHRATTLE"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_025",
@@ -2117,10 +2049,7 @@
           "name": "주문 속성",
           "value": 4
         }
-      ],
-      "race": "",
-      "races": [],
-      "classes": []
+      ]
     },
     {
       "id": "FP1_026",
@@ -2142,7 +2071,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -2193,9 +2122,7 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_027",
@@ -2217,7 +2144,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -2268,9 +2195,7 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_028",
@@ -2292,7 +2217,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -2349,9 +2274,7 @@
       "mechanics": [
         "TRIGGER_VISUAL",
         "DEATHRATTLE"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_029",
@@ -2362,7 +2285,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 3,
-      "text": "[x]<b>죽음의 메아리:</b>\n상대편이 카드를 뽑습니다.",
+      "text": "<b>죽음의 메아리:</b>\n상대편이 카드를 뽑습니다.",
       "attack": 4,
       "health": 4,
       "durability": 0,
@@ -2415,11 +2338,7 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ],
-      "race": "",
-      "races": [],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_030",
@@ -2441,7 +2360,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -2507,9 +2426,7 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     },
     {
       "id": "FP1_031",
@@ -2531,7 +2448,7 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드",
+      "race": "UNDEAD",
       "set": "NAXX",
       "nativeTags": [
         {
@@ -2592,9 +2509,7 @@
       ],
       "mechanics": [
         "DEATHRATTLE"
-      ],
-      "spellSchool": "",
-      "classes": []
+      ]
     }
   ]
 }
