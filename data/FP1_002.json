@@ -80,7 +80,15 @@
       }
     ],
     "nativeRawText": "<b>죽음의_메아리:</b> 1/1 유령 거미를 2마리 소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2014-12-04",
+        "changes": {
+          "legacyArt": true
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [

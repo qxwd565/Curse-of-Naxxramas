@@ -154,6 +154,14 @@
       ],
       "relatedDbfIds": [
         1782
+      ],
+      "history": [
+        {
+          "before": "2014-12-04",
+          "changes": {
+            "legacyArt": true
+          }
+        }
       ]
     },
     {
