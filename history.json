@@ -1,1 +1,17 @@
-{"schema":1,"set":"Curse of Naxxramas","cards":{"1781":{"id":"FP1_002","history":[{"before":"2014-12-04","changes":{"legacyArt":true}}]}}}
+{
+  "schema": 1,
+  "set": "Curse of Naxxramas",
+  "cards": {
+    "1781": {
+      "id": "FP1_002",
+      "history": [
+        {
+          "before": "2014-12-04",
+          "changes": {
+            "legacyArt": true
+          }
+        }
+      ]
+    }
+  }
+}
