@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Poison Seeds",
   "card": {
     "id": "FP1_019",
     "dbfId": 1802,
     "name": "독성 씨앗",
-    "text": "[x]<b>모든</b> 하수인을 처치하고\n2/2 나무정령으로\n교체합니다.",
+    "text": "<b>모든</b> 하수인을 처치하고<br></br>2/2 나무정령으로<br></br>교체합니다.",
     "type": "SPELL",
     "cardClass": "DRUID",
     "classes": [],
@@ -15,7 +15,7 @@
     "rarity": "COMMON",
     "race": "",
     "races": [],
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "cost": 4,
     "attack": 0,
     "health": 0,
@@ -65,7 +65,15 @@
     "nativeRawText": "[x]<b>모든</b> 하수인을 처치하고\n2/2 나무정령으로\n교체합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2014-07-23",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "NATURE"
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [
@@ -87,5 +95,21 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.1.0.6024",
+      "name": "독성 씨앗",
+      "rawText": "<b>모든</b> 하수인을 처치하고 2/2 나무정령으로 교체합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "독성 씨앗",
+      "rawText": "[x]<b>모든</b> 하수인을 처치하고\n2/2 나무정령으로\n교체합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "31.2.0.212197"
+    }
+  ]
 }

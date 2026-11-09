@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Nerubian Egg",
   "card": {
     "id": "FP1_007",
     "dbfId": 1786,
     "name": "네루비안 알",
-    "text": "<b>죽음의 메아리:</b>\n4/4 네루비안을\n소환합니다.",
+    "text": "<b>죽음의 메아리:</b><br></br>4/4 네루비안을<br></br>소환합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],
@@ -75,7 +75,11 @@
     "nativeRawText": "<b>죽음의 메아리:</b>\n4/4 네루비안을\n소환합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2014-07-23",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "patches": []
   },
   "root": true,
   "relatedIds": [
@@ -97,5 +101,28 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.1.0.6024",
+      "name": "네루비안 알",
+      "rawText": "<b>죽음의 메아리:</b> 4/4 네루비안을 하나 소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "네루비안 알",
+      "rawText": "<b>죽음의 메아리:</b>\n4/4 네루비안을\n하나 소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "11.0.0.23966"
+    },
+    {
+      "build": "17.0.0.44222",
+      "name": "네루비안 알",
+      "rawText": "<b>죽음의 메아리:</b>\n4/4 네루비안을\n소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/fc67953f6f6eee064badde3f4a7bd07011508642/CardDefs.xml",
+      "lastObservedBuild": "31.2.0.212197"
+    }
+  ]
 }

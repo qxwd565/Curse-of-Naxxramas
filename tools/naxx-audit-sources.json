@@ -1,0 +1,270 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "events": {
+    "release-wing-1": {
+      "date": "2014-07-23",
+      "cards": [
+        "FP1_002",
+        "FP1_002t",
+        "FP1_007",
+        "FP1_007t",
+        "FP1_010",
+        "FP1_017",
+        "FP1_019",
+        "FP1_019t",
+        "FP1_026"
+      ],
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/14833865",
+        "https://www.inven.co.kr/webzine/news/?news=114795",
+        "https://www.etnews.com/20140723000353"
+      ],
+      "basis": "Korean launch announcement explicitly reports July 23. Druid/Rogue class challenges and generated tokens follow the corresponding wing rewards."
+    },
+    "release-wing-2": {
+      "date": "2014-07-30",
+      "cards": [
+        "FP1_011",
+        "FP1_012",
+        "FP1_012t",
+        "FP1_018",
+        "FP1_024",
+        "FP1_027",
+        "FP1_030"
+      ],
+      "sources": [
+        "https://www.inven.co.kr/webzine/news/?news=115276&site=hs"
+      ],
+      "basis": "Korean report explicitly states July 30 at 01:00; Hunter/Mage challenges included."
+    },
+    "release-wing-3": {
+      "date": "2014-08-06",
+      "cards": [
+        "FP1_008",
+        "FP1_009",
+        "FP1_022",
+        "FP1_025",
+        "FP1_029",
+        "FP1_031"
+      ],
+      "sources": [
+        "https://www.inven.co.kr/webzine/news/?news=115738"
+      ],
+      "basis": "Korean Military Quarter report explicitly states August 6 at 01:00; Warlock/Shaman challenges included."
+    },
+    "release-wing-4": {
+      "date": "2014-08-13",
+      "cards": [
+        "FP1_001",
+        "FP1_004",
+        "FP1_014",
+        "FP1_014t",
+        "FP1_015",
+        "FP1_016",
+        "FP1_021",
+        "FP1_023",
+        "FP1_028"
+      ],
+      "sources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=116229&site=hs"
+      ],
+      "basis": "Korean Construct Quarter report explicitly states August 13 at 01:00; Warrior/Priest challenges included."
+    },
+    "release-wing-5": {
+      "date": "2014-08-20",
+      "cards": [
+        "FP1_003",
+        "FP1_005",
+        "FP1_013",
+        "FP1_020"
+      ],
+      "sources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=116759&site=hs&vtype=mobile"
+      ],
+      "basis": "Korean Frostwyrm Lair report explicitly states August 20 at 01:00; Paladin challenge included."
+    },
+    "1.1.0.6141": {
+      "date": "2014-08-01",
+      "cards": [
+        "FP1_030"
+      ],
+      "kind": "Korean localization error correction, not gameplay change",
+      "sources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=115522&l=152453&p=71&site=hs"
+      ],
+      "basis": "Korean report confirms August 1 application. 6024 raw text says Deathrattle, 6141 says Battlecry. Both raw builds carry BATTLECRY tag 218=1, not DEATHRATTLE. Loatheb was already available July 30. Modern synonymous wording is retained for the other phrase; full historical wording remains partial."
+    },
+    "2.0.0.7234": {
+      "date": "2014-12-05",
+      "cards": [
+        "FP1_002"
+      ],
+      "kind": "art",
+      "sources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=123219&l=105796&p=66&site=hs",
+        "https://hearthstone.wiki.gg/wiki/Patch_2.0.0.7234",
+        "https://hearthstone.blizzard.com/en-us/news/17076855"
+      ],
+      "basis": "Korean December 5 report confirms patch already live, distinct from December 10 GvG constructed opening. Corrects old US-date boundary December 4."
+    },
+    "2.1.0.7628": {
+      "date": "2015-01-30",
+      "cards": [
+        "FP1_028"
+      ],
+      "kind": "balance",
+      "sources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=126354&l=112374&p=64&site=hs"
+      ],
+      "basis": "Korean report explicitly confirms January 30 application; January 28 was advance notice and January 29 is the US patch day."
+    },
+    "6.0.0.13921": {
+      "date": "2016-08-10",
+      "cards": [
+        "FP1_007t"
+      ],
+      "kind": "token cost",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.wiki.gg/wiki/Patch_6.0.0.13921"
+      ],
+      "basis": "Official Korean title explicitly August 10; text notes summoned token costs increased. Client 5.0 cost 3, 6.0 cost 4; wiki identifies Nerubian."
+    },
+    "7.1": {
+      "date": "2017-03-01",
+      "cards": [
+        "FP1_010"
+      ],
+      "kind": "keyword text",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20562933"
+      ],
+      "basis": "Official Korean title says March 1 and lists Maexxna Poisonous text. Existing lethal damage effect and POISONOUS mechanic are not treated as newly gained."
+    },
+    "11.0.0.23966": {
+      "date": "2018-04-11",
+      "cards": [
+        "FP1_019t"
+      ],
+      "kind": "token cost",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21694420",
+        "https://www.inven.co.kr/webzine/news/?news=197435&vtype=pc",
+        "https://hearthstone.wiki.gg/wiki/Treant_(Poison_Seeds)"
+      ],
+      "basis": "Official Korean 11.0 title April 11; token-specific wiki and raw 11.0 cost 2 corroborate earlier cost 1."
+    },
+    "17.0": {
+      "date": "2020-03-27",
+      "cards": [
+        "FP1_012t"
+      ],
+      "kind": "name",
+      "sources": [
+        "https://news.blizzard.com/ko-kr/article/23357896/17-0-3-27",
+        "https://hearthstone.wiki.gg/wiki/Putrid_Slime"
+      ],
+      "basis": "Official Korean patch title March 27; wiki identifies rename and raw 17.0 confirms Korean 부패한 수액괴물."
+    },
+    "20.0": {
+      "date": "2021-03-26",
+      "cards": [
+        "FP1_018",
+        "FP1_019",
+        "FP1_020",
+        "FP1_025",
+        "FP1_028"
+      ],
+      "kind": "Undertaker revert and spell schools",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23642550"
+      ],
+      "basis": "Official Korean notes explicitly date unmarked changes March 26, list Undertaker +1/+1 revert and spell schools."
+    },
+    "25.0": {
+      "date": "2022-11-30",
+      "kind": "Undead taxonomy",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23882860",
+        "https://hearthstone.wiki.gg/wiki/Patch_25.0.0.158725",
+        "https://hearthstone.wiki.gg/wiki/Spectral_Spider"
+      ],
+      "basis": "Official Korean body explicitly November 30. Spectral Spider had no original tribe and gains BOTH BEAST and UNDEAD in 25.0; other cards retain their actual original tribes.",
+      "cards": [
+        "FP1_001",
+        "FP1_002t",
+        "FP1_004",
+        "FP1_005",
+        "FP1_007t",
+        "FP1_008",
+        "FP1_009",
+        "FP1_012",
+        "FP1_013",
+        "FP1_014",
+        "FP1_014t",
+        "FP1_015",
+        "FP1_016",
+        "FP1_017",
+        "FP1_024",
+        "FP1_026",
+        "FP1_027",
+        "FP1_028",
+        "FP1_030",
+        "FP1_031"
+      ]
+    },
+    "26.0": {
+      "date": "2023-04-05",
+      "cards": [
+        "FP1_019t"
+      ],
+      "kind": "token cost",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23934449/26-0-patch-notes",
+        "https://hearthstone.wiki.gg/wiki/Treant_(Poison_Seeds)"
+      ],
+      "basis": "Official Korean body says April 5. Raw 20.0 cost 2 and raw 26.0 cost 1 corroborate wiki change. March 28 hsdata archive timestamp is not the effective date."
+    },
+    "27.2": {
+      "date": "2023-08-23",
+      "cards": [
+        "FP1_012",
+        "FP1_025"
+      ],
+      "kind": "balance",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23987537/27-2-patch-notes",
+        "https://outof.games/realms/hearthstone/patches/240-battlegrounds-season-5"
+      ],
+      "basis": "Official body dates launch August 23, says original versions upgraded, gives Belcher 3/6 and Reincarnate cost 1. August 17 is announcement, not application."
+    },
+    "29.0": {
+      "date": "2024-03-12",
+      "cards": [
+        "FP1_008"
+      ],
+      "kind": "keyword",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0-patch-notes",
+        "https://hearthstone.blizzard.com/en-us/news/24056182",
+        "https://hearthstone.wiki.gg/wiki/Spectral_Knight"
+      ],
+      "basis": "Official Korean body March 12 for balance/Core/non-Core updates. Existing targeting restrictions renamed Elusive. Current nativeTags already has 1211=1 but API mechanics field was missing."
+    },
+    "37.0.2": {
+      "date": "2026-11-04",
+      "cards": [
+        "FP1_025"
+      ],
+      "kind": "balance and intentional current API correction",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24307311",
+        "https://www.inven.co.kr/board/hs/3508/24401"
+      ],
+      "basis": "Official Korean notes give exact changed text; Korean live patch posting is November 4 01:00:07. Official header November 3 is not copied as Korean day. Temporary Wild ban preceding patch is not a card specification and is not modeled by this schema.",
+      "before": "하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다.",
+      "after": "전설 하수인이 아닌 하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다."
+    }
+  }
+}

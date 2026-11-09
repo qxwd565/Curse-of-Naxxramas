@@ -1,0 +1,2613 @@
+{
+  "notice": "Pre-audit current catalogue for regression tests. Raw native data deliberately retained verbatim.",
+  "cards": [
+    {
+      "id": "FP1_001",
+      "dbfId": 1753,
+      "name": "간식용 좀비",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 1,
+      "text": "<b>죽음의 메아리:</b>\n적 영웅의 생명력을\n#5 회복시킵니다.",
+      "attack": 2,
+      "health": 3,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_001.png",
+      "flavor": "오늘은 내가 좀비 요리사!",
+      "portrait": "r5_a034_D.psd:338dda4554116c04cbac6048be3445a7",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_002",
+      "dbfId": 1781,
+      "name": "유령 들린 거미",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 2,
+      "text": "<b>죽음의_메아리:</b> 1/1 유령 거미를 2마리 소환합니다.",
+      "attack": 1,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_002.png",
+      "flavor": "여기에 쓸 거미에 대한 내용을 찾다보니 거미 공포증에 걸린 것 같습니다...",
+      "portrait": "W6_069_D.psd:b0098662e26535e4e9ec8fa5f73bdab5",
+      "races": [
+        "BEAST"
+      ],
+      "race": "BEAST",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 1782
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "relatedDbfIds": [
+        1782
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_002t",
+      "dbfId": 1782,
+      "name": "유령 거미",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "FREE",
+      "collectible": false,
+      "cost": 1,
+      "text": "",
+      "attack": 1,
+      "health": 1,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_002t.png",
+      "portrait": "HS2-012_D.psd:b65289c146337624193cc8a0f59eab66",
+      "races": [
+        "UNDEAD",
+        "BEAST"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 2542,
+          "name": "게임 태그 2542",
+          "value": 1
+        }
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_003",
+      "dbfId": 1858,
+      "name": "고동치는 수액괴물",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "EPIC",
+      "collectible": true,
+      "cost": 2,
+      "text": "<b>전투의 함성:</b>\n턴이 끝날 때, 이 하수인을\n복사하여 소환합니다.",
+      "attack": 1,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_003.png",
+      "flavor": "끈적... 끈적... 끈적...",
+      "portrait": "HS2-004_D.psd:ec637284a46b8e640b19d0eb5ea9675c",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2014-08-20",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_004",
+      "dbfId": 1783,
+      "name": "미치광이 과학자",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 2,
+      "text": "<b>죽음의 메아리:</b> 내 덱에 있는 <b>비밀</b>을 시전합니다.",
+      "attack": 2,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_004.png",
+      "flavor": "어머니는 마법사나 흑마법사가 되길 바랐지만, 그는 결국 아버지의 뒤를 이어 과학자가 되었답니다.",
+      "portrait": "R7_a088_D.psd:892e2cef18c7f1641a97ef80708e6a0b",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE",
+        "SECRET"
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_005",
+      "dbfId": 1784,
+      "name": "낙스라마스의 망령",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "EPIC",
+      "collectible": true,
+      "cost": 3,
+      "text": "<b>은신</b>\n내 턴이 시작될 때, +1/+1을 얻습니다.",
+      "attack": 2,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_005.png",
+      "flavor": "전설도 아니면서 그룰보다 높은 생존력을 자랑합니다.",
+      "portrait": "R7_a012_D.psd:1f99e8a801f387e4db8bc5f3454a6a31",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 191,
+          "name": "은신",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "TRIGGER_VISUAL",
+        "STEALTH"
+      ],
+      "releasedAt": "2014-08-20",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_007",
+      "dbfId": 1786,
+      "name": "네루비안 알",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 2,
+      "text": "<b>죽음의 메아리:</b>\n4/4 네루비안을\n소환합니다.",
+      "attack": 0,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_007.png",
+      "flavor": "네루비안 알은 좋은 단백질 공급원이죠.",
+      "portrait": "HS2-008_D.psd:2a78f11f09b61904d9d129729f398405",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 1787
+        },
+        {
+          "id": 2589,
+          "name": "간판 카드 존재",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "relatedDbfIds": [
+        1787
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_007t",
+      "dbfId": 1787,
+      "name": "네루비안",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "FREE",
+      "collectible": false,
+      "cost": 4,
+      "text": "",
+      "attack": 4,
+      "health": 4,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_007t.png",
+      "portrait": "W11_210_D.psd:1c431814653dd114e894181d40e8af32",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "EXPERT1",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_008",
+      "dbfId": 1789,
+      "name": "유령 기사",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>모면</b>",
+      "attack": 4,
+      "health": 6,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_008.png",
+      "flavor": "요정용과 유령 기사의 공통점이 뭐냐고요? 음... 둘 다 파스타를 좋아한다는 거?",
+      "portrait": "w12_a107_D.psd:8767652431e363c45bdbe41ba3934db4",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1211,
+          "name": "모면",
+          "value": 1
+        }
+      ],
+      "releasedAt": "2014-08-06",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_009",
+      "dbfId": 1790,
+      "name": "죽음의 군주",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 3,
+      "text": "<b>도발</b>, <b>죽음의 메아리:</b> 상대편이 덱에서 하수인을 소환합니다.",
+      "attack": 2,
+      "health": 8,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_009.png",
+      "flavor": "\"무덤에서 일어나라!\" - 켈투자드",
+      "portrait": "W14_a107_D.psd:eef0bb0ac3fc946469803fa93ffe1075",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2589,
+          "name": "간판 카드 존재",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "TAUNT",
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2014-08-06",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_010",
+      "dbfId": 1791,
+      "name": "맥스나",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "LEGENDARY",
+      "collectible": true,
+      "cost": 6,
+      "text": "<b>독성</b>",
+      "attack": 2,
+      "health": 8,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_010.png",
+      "flavor": "맥스나는 사람들이 자신을 \"맵시나\"라고 부르는 걸 싫어합니다.",
+      "portrait": "r5_a038_D.psd:dfbe5c93853b7c946ac2c636593b9209",
+      "races": [
+        "BEAST"
+      ],
+      "race": "BEAST",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        },
+        {
+          "id": 1429,
+          "name": "전장 황금 하수인 ID",
+          "value": 63781
+        },
+        {
+          "id": 1440,
+          "name": "선술집 단계",
+          "value": 6
+        },
+        {
+          "id": 1594,
+          "name": "전장 야수 분류",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "POISONOUS"
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_011",
+      "dbfId": 1860,
+      "name": "그물거미",
+      "type": "MINION",
+      "cardClass": "HUNTER",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 1,
+      "text": "<b>죽음의 메아리:</b> 무작위 야수를 얻습니다.",
+      "attack": 1,
+      "health": 1,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_011.png",
+      "flavor": "거미 고치는 마치 작은 피냐타 같습니다! 귀여워라!",
+      "portrait": "W20_a162_D.psd:5b4b20b6077ba5d46aa3a9938c49e21c",
+      "races": [
+        "BEAST"
+      ],
+      "race": "BEAST",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_012",
+      "dbfId": 1793,
+      "name": "썩은위액 누더기골렘",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>도발</b>, <b>죽음의 메아리:</b>\n<b>도발</b> 능력이 있는 1/2\n수액괴물을 소환합니다.",
+      "attack": 3,
+      "health": 6,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_012.png",
+      "flavor": "주의: 맥주를 주지 마시오.",
+      "portrait": "W13_030_D.psd:407805f43e221d64db9c2afadf3ece6c",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 1795
+        }
+      ],
+      "mechanics": [
+        "TAUNT",
+        "DEATHRATTLE"
+      ],
+      "relatedDbfIds": [
+        1795
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_012t",
+      "dbfId": 1795,
+      "name": "부패한 수액괴물",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "FREE",
+      "collectible": false,
+      "cost": 1,
+      "text": "<b>도발</b>",
+      "attack": 1,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_012t.png",
+      "portrait": "HS2-11_D.psd:054532e298ad8b747b2a192956a37552",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "mechanics": [
+        "TAUNT"
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_013",
+      "dbfId": 1794,
+      "name": "켈투자드",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "LEGENDARY",
+      "collectible": true,
+      "cost": 8,
+      "text": "각 턴이 끝날 때, 이번 턴에 죽은 모든 아군 하수인을 소환합니다.",
+      "attack": 6,
+      "health": 8,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_013.png",
+      "flavor": "켈투자드는 리치 왕의 부름에 저항할 수 없었습니다. 녹음된 목소리로 리치 왕의 덕을 찬미하는 전화가 계속해서 걸려왔거든요.",
+      "portrait": "KT_minion.psd:cb39336719f74664eb4a00b8bff2d85e",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 6
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "TRIGGER_VISUAL"
+      ],
+      "releasedAt": "2014-08-20",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_014",
+      "dbfId": 1796,
+      "name": "스탈라그",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "LEGENDARY",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>죽음의 메아리:</b>\n퓨진이 죽은 상태라면,\n타디우스를 소환합니다.",
+      "attack": 7,
+      "health": 4,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_014.png",
+      "flavor": "\"스탈라그 잘생겼다!\" (스탈라그가 쓴 거 아님)",
+      "portrait": "r5_a020_D.psd:d4b0f8195c19eec4aa9f315eb1f89002",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 7
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "relatedDbfIds": [
+        1797,
+        1798
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_014t",
+      "dbfId": 1798,
+      "name": "타디우스",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "FREE",
+      "collectible": false,
+      "cost": 10,
+      "text": "",
+      "attack": 11,
+      "health": 11,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_014t.png",
+      "portrait": "r5_a071_minion.psd:be00a077597f33646bd2de39797ae004",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 11
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 11
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 10
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_015",
+      "dbfId": 1797,
+      "name": "퓨진",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "LEGENDARY",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>죽음의 메아리:</b>\n스탈라그가 죽은 상태라면,\n타디우스를 소환합니다.",
+      "attack": 4,
+      "health": 7,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_015.png",
+      "flavor": "퓨진은 슬픕니다. 스탈라그가 잘생겨서요.",
+      "portrait": "r5_a021_D.psd:31c902bb64e4b914487338d7771795cc",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "relatedDbfIds": [
+        1796,
+        1798
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_016",
+      "dbfId": 1799,
+      "name": "울부짖는 영혼",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 4,
+      "text": "<b>전투의 함성:</b>\n내 다른 하수인들을 <b>침묵</b>시킵니다.",
+      "attack": 3,
+      "health": 5,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_016.png",
+      "flavor": "정말 쉬지도 않고 계속 울부짖네요. 영혼아. 밥은 먹고 다니니?",
+      "portrait": "HS2-009_D.psd:0f9686a82841a9c4ab15d74d57350963",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 339,
+          "name": "침묵",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_017",
+      "dbfId": 1800,
+      "name": "네룹아르 그물군주",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 2,
+      "text": "<b>전투의 함성</b> 하수인의 비용이 (2) 증가합니다.",
+      "attack": 1,
+      "health": 4,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_017.png",
+      "flavor": "그물군주들은 하루 종일 거대한 트램펄린을 만들며 시간을 보낸답니다.",
+      "portrait": "W10_A003_D.psd:68ae1d1afaec7cc45aee2ac3f3f23ee7",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "지속 효과",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_018",
+      "dbfId": 1801,
+      "name": "복제",
+      "type": "SPELL",
+      "cardClass": "MAGE",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 3,
+      "text": "<b>비밀:</b> 아군 하수인이 죽으면, 그 하수인을 둘 복사하여 내 손으로 가져옵니다.",
+      "attack": 0,
+      "health": 0,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_018.png",
+      "flavor": "카드를 복사해도 계정 정지를 피할 수 있는 유일한 기회입니다!",
+      "spellSchool": "ARCANE",
+      "portrait": "r8_a034_D.psd:257a9546e66723c4c8995a119096e5a3",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "SECRET"
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_019",
+      "dbfId": 1802,
+      "name": "독성 씨앗",
+      "type": "SPELL",
+      "cardClass": "DRUID",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 4,
+      "text": "<b>모든</b> 하수인을 처치하고\n2/2 나무정령으로\n교체합니다.",
+      "attack": 0,
+      "health": 0,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_019.png",
+      "flavor": "우리 아제로스 푸르게 푸르게",
+      "spellSchool": "NATURE",
+      "portrait": "W11_030_D.psd:d62ac4388daabc04ba759b2c183fde51",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 1803
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 4
+        }
+      ],
+      "relatedDbfIds": [
+        1803
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_019t",
+      "dbfId": 1803,
+      "name": "나무정령",
+      "type": "MINION",
+      "cardClass": "DRUID",
+      "rarity": "FREE",
+      "collectible": false,
+      "cost": 1,
+      "text": "",
+      "attack": 2,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_019t.png",
+      "portrait": "W16_a032_D.psd:e6db030648aad0a4bb1ce0814f711359",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 2831,
+          "name": "게임 태그 2831",
+          "value": 1
+        }
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_020",
+      "dbfId": 1804,
+      "name": "앙갚음",
+      "type": "SPELL",
+      "cardClass": "PALADIN",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 1,
+      "text": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인에게 +3/+2를 부여합니다.",
+      "attack": 0,
+      "health": 0,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_020.png",
+      "flavor": "어쩐지 성기사의 하수인들은 서로 더 친한 것 같더니만...",
+      "spellSchool": "HOLY",
+      "portrait": "W11_083_D.psd:a87c40654c43b0848ba0a80f714c039a",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 5
+        }
+      ],
+      "mechanics": [
+        "SECRET"
+      ],
+      "releasedAt": "2014-08-20",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_021",
+      "dbfId": 1805,
+      "name": "죽음의 이빨",
+      "type": "WEAPON",
+      "cardClass": "WARRIOR",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 4,
+      "text": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n피해를 1 줍니다.",
+      "attack": 4,
+      "health": 2,
+      "durability": 2,
+      "armor": 0,
+      "art": "art/FP1_021.png",
+      "flavor": "이를 닦을 때는 반드시 혀도 닦으세요!!",
+      "portrait": "W13_177_D.psd:fd4db0423b35e58418b6430ff0044fbc",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_022",
+      "dbfId": 1806,
+      "name": "공허소환사",
+      "type": "MINION",
+      "cardClass": "WARLOCK",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 4,
+      "text": "<b>죽음의 메아리:</b>\n내 손의 무작위 악마를 소환합니다.",
+      "attack": 3,
+      "health": 4,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_022.png",
+      "flavor": "산 자와 죽은 자들의 세계를 이어줍니다.",
+      "portrait": "W6_117_D.psd:3b080b2c32bcfc146a93f987bd22d3ce",
+      "races": [
+        "DEMON"
+      ],
+      "race": "DEMON",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 15
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2014-08-06",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_023",
+      "dbfId": 1807,
+      "name": "어둠의 이교도",
+      "type": "MINION",
+      "cardClass": "PRIEST",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 3,
+      "text": "<b>죽음의 메아리:</b> 무작위 아군 하수인에게 생명력을 +3 부여합니다.",
+      "attack": 3,
+      "health": 4,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_023.png",
+      "flavor": "저주받은 자들의 교단은 새로운 이교도를 모집할 때 교단의 이름을 밝히지 않는 편이 낫다는 걸 깨달았습니다.",
+      "portrait": "W8_083_D.psd:c587a15b28134344c8953831bd32b308",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_024",
+      "dbfId": 1808,
+      "name": "불안정한 구울",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 2,
+      "text": "<b>도발</b>\n<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n피해를 1 줍니다.",
+      "attack": 1,
+      "health": 3,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_024.png",
+      "flavor": "요즘 강령술사 학교에서 잘 나가는 애들은 자신의 구울을 로켓 연료로 채우곤 한답니다.",
+      "portrait": "W12_A021_D.psd:4224776a121134b4aa4c009512ba6f83",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "TAUNT",
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_025",
+      "dbfId": 1809,
+      "name": "윤회",
+      "type": "SPELL",
+      "cardClass": "SHAMAN",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 1,
+      "text": "하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다.",
+      "attack": 0,
+      "health": 0,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_025.png",
+      "flavor": "여러분, 술사님 윤회 있으시답니다. 뛰지 마세요.",
+      "spellSchool": "NATURE",
+      "portrait": "W3_030_D.psd:d2acb81d589a25147b20b42e8950f9cd",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 4
+        }
+      ],
+      "releasedAt": "2014-08-06",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_026",
+      "dbfId": 1810,
+      "name": "아눕아르 복병",
+      "type": "MINION",
+      "cardClass": "ROGUE",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 4,
+      "text": "<b>죽음의 메아리:</b> 무작위 아군 하수인을 내 손으로 다시 가져옵니다.",
+      "attack": 5,
+      "health": 5,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_026.png",
+      "flavor": "본래 이름은 \"하수인을 손으로 가져오는 아눕아르 뭐시기\"였습니다.",
+      "portrait": "W12_a195_D.psd:25004b82c65ff17419c7846365017793",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2014-07-23",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_027",
+      "dbfId": 1861,
+      "name": "돌가죽 가고일",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 3,
+      "text": "내 턴이 시작될 때,\n이 하수인은 생명력을 모두 회복합니다.",
+      "attack": 1,
+      "health": 4,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_027.png",
+      "flavor": "특기: 얼음땡",
+      "portrait": "W12_A207_D.psd:36f1e9e07d0a1654e8dc490ddaaf0dfb",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "TRIGGER_VISUAL"
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_028",
+      "dbfId": 1910,
+      "name": "장의사",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 1,
+      "text": "내가 <b>죽음의 메아리</b> 하수인을 소환할 때마다 +1/+1을 얻습니다.",
+      "attack": 1,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_028.png",
+      "flavor": "영혼의 치유사에게 뛰어가서 바로 부활할 수 있는 아제로스에서 장의사들은 별로 할 일이 없답니다.",
+      "portrait": "WOW_MISC_018_D.psd:55d5ae36e159fac4586e8bb2dce78a72",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "TRIGGER_VISUAL",
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2014-08-13",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_029",
+      "dbfId": 1913,
+      "name": "춤추는 검",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 3,
+      "text": "<b>죽음의 메아리:</b>\n상대편이 카드를 뽑습니다.",
+      "attack": 4,
+      "health": 4,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_029.png",
+      "flavor": "본래 이름은 \"(레게 음악에 맞춰) 춤추는 검\"입니다.",
+      "portrait": "HS2_010_D.psd:61e146e3fbab0db44b4bdc18a2b819e5",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2014-08-06",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_030",
+      "dbfId": 1914,
+      "name": "로데브",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "LEGENDARY",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>전투의 함성:</b> 다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+      "attack": 5,
+      "health": 5,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_030.png",
+      "flavor": "평범한 수렁 괴물 로데브, 몸에서 버섯 재배 수확 '충격'",
+      "portrait": "HS2-003_D1.psd:a46850f76884724419a1bbd15b4f4f7a",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1932,
+          "name": "다이아몬드 카드 존재",
+          "value": 1
+        },
+        {
+          "id": 2589,
+          "name": "간판 카드 존재",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "FP1_031",
+      "dbfId": 1915,
+      "name": "남작 리븐데어",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "LEGENDARY",
+      "collectible": true,
+      "cost": 4,
+      "text": "내 하수인들의\n<b>죽음의 메아리</b> 능력이 2번 발동합니다.",
+      "attack": 1,
+      "health": 7,
+      "durability": 0,
+      "armor": 0,
+      "art": "art/FP1_031.png",
+      "flavor": "원래 켈투자드를 지키는 건 5인 기사단이었지만, 한 명은 밤낮 없는 격무에 진절머리를 내며 근무 시간과 복지 혜택이 좋은 죽음의 폐광 경비병으로 이직했습니다.",
+      "portrait": "r5_a087_D_minion.psd:2b0cfbc28bba02641a8b4134b6af23ee",
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "UNDEAD",
+      "set": "NAXX",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "지속 효과",
+          "value": 1
+        }
+      ],
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2014-08-06",
+      "releaseStatus": "verified"
+    }
+  ],
+  "sourceEvidenceHashes": {
+    "FP1_001": "e31730db68bd6f56abd8df02ac61ad37cd07c78685bbce0e3ef297412fd9aa61",
+    "FP1_002": "4c07b39e509d2f397b94b2d471c2eb58b38eb3797b0dbe3d00a0c577d75b7743",
+    "FP1_002t": "f48a0af06a6ed79abec4e0bec2ed05f719c5234597990e5d9f9bd4c6b1cecbba",
+    "FP1_003": "3c3c8ab828048ba6b5caa37a5104d2999c4aa355a2f0383a67283611e680a8b9",
+    "FP1_004": "f8f9701cfe575016c71775c5865fe385b77c2cd33f1632ff5c146037ed849b61",
+    "FP1_005": "c865c39cbdb592443d41dc0774020d1e30fb5f2a947129fa08108c0ca7ad9b57",
+    "FP1_007": "b8bab2ba95a3ab7b9fe840cc719c39c2151b4f38ad87e6922b57fb1e2e98f3b3",
+    "FP1_007t": "6889084146a703029f5bb0a23b99a8dfc38d0f7bfa84ccb19e937172ed0feac0",
+    "FP1_008": "7c72ae85e0ffe74e1b93edae711dabaca9e33eed9e6574c4fbb0f1542bb80f8f",
+    "FP1_009": "30682d4882eb4ed248f70080a88b9de6dd83ccd371f023c44c0b545517b063df",
+    "FP1_010": "142ef67ae2826147ae927fb53b21c7be36644f485ed0dc433a435d6dff4c0fb3",
+    "FP1_011": "083619839a5a8422c06ef8e774d6d99bdaada841d0b3ffe55515db9e14fb41e7",
+    "FP1_012": "26969e704b2e4576fae955b2eac3b139fe275673d2a13049059834ce6ef4d1b9",
+    "FP1_012t": "d5feee5f2e19850e46939276762cb8f1f8ed27b75b3ca51b81fc77103714b92b",
+    "FP1_013": "f44b75bd537a149f6aaf12c43707bf86862ac560eebc66deafcb96316f11cef7",
+    "FP1_014": "c704bb86110ad5bf6df8ff1370c02dff455641e95aad6c5bf650a622ee9a1241",
+    "FP1_014t": "7532588da4aef7c07b4cbc5c749bb44e61bd77fc90144939295b50ba652edaca",
+    "FP1_015": "33452dcc9a384f3bb4b06a4a2baae3237059ba652628064fc519fa8dac8e04d8",
+    "FP1_016": "e5df5c1f1a1c7c62aadfd261413e4cb808590fb1d8b9a63002431051cf6a0775",
+    "FP1_017": "c85b1d7476760340dabd7e4e37a5cfe666839a95d9d9331605f2038330baa49e",
+    "FP1_018": "a9f2a8f66da62d81b02f9d1bac75666411fd3ba140fadde1970234bcc272da93",
+    "FP1_019": "9ed86dd1d593b188908ef322a6b79c4e9a1855f40a3794e1a996e65f0cf6ae0b",
+    "FP1_019t": "2140ec00a5a58b504df906f632a2c1785cc2ddb979b8b1ca8dd9fa9472160928",
+    "FP1_020": "572c082e3eac33f59f60b4f686c0b7676433e5fbe0f112633480ee828cba9bf9",
+    "FP1_021": "7ccd47e5672afe408fa55106df406b6f9edbbeac6b561c614e011a8c19bb9e33",
+    "FP1_022": "060443a2bd55d796589fb92fc9e529de5b1be49361bc0e99048220707aafaaff",
+    "FP1_023": "242a0e56853b9a71a72f9dd132ba35f28f23be1162f3dac890522ce07e5632b5",
+    "FP1_024": "30ecfc4039af14e3ab8233deb56dc72dfb486a653de6e3cbf76cafe484fe474f",
+    "FP1_025": "4e076ac6ff71ac8af2b702da53a43de6c51b5a08815d7996d669763c44595c02",
+    "FP1_026": "dce0c34e34c50256cac53362ca242846c509f6d926fb4d4fd85cda932bba54a4",
+    "FP1_027": "76b283757271aab561dbe8a69defd0f308e65d449d8364d648b69d0425793e94",
+    "FP1_028": "2d2fdf080a8a20c70cee3375d206e10cdeef9f22b132dd5e110d1d2ed826d512",
+    "FP1_029": "f190ae0823e1a65ed79951415435c09abd1321e753d8d54c7d29da47c203223a",
+    "FP1_030": "1ae9212bf4ff3bf7ba11fef3f6f15ca76cfe9f4c6f855c4e8484ebe3f2450230",
+    "FP1_031": "833c608df8e928deeb163a9afd0c219b94fc99eef6bb727dcb2bf0f7644977e9"
+  }
+}

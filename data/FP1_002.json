@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Haunted Creeper",
   "card": {
@@ -13,7 +13,7 @@
     "nativeSetId": 12,
     "set": "NAXX",
     "rarity": "COMMON",
-    "race": "야수",
+    "race": "BEAST",
     "races": [
       "BEAST"
     ],
@@ -81,16 +81,20 @@
     ],
     "nativeRawText": "<b>죽음의_메아리:</b> 1/1 유령 거미를 2마리 소환합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2014-07-23",
+    "releaseStatus": "verified",
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
+    "patches": [
       {
-        "before": "2014-12-04",
+        "date": "2014-12-05",
         "changes": {
-          "legacyArt": true
+          "legacyArt": false
         }
       }
     ],
-    "releasedAt": "2014-07-23",
-    "releaseStatus": "verified"
+    "legacyArt": true
   },
   "root": true,
   "relatedIds": [
@@ -112,5 +116,27 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.1.0.6024",
+      "name": "유령 들린 거미",
+      "rawText": "<b>죽음의 메아리:</b> 1/1 유령 거미를 2마리 소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "유령 들린 거미",
+      "rawText": "<b>죽음의 메아리:</b>\n1/1 유령 거미를\n2마리 소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml"
+    },
+    {
+      "build": "11.0.0.23966",
+      "name": "유령 들린 거미",
+      "rawText": "<b>죽음의_메아리:</b> 1/1 유령 거미를 2마리 소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "lastObservedBuild": "31.2.0.212197"
+    }
+  ]
 }

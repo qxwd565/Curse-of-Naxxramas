@@ -1,0 +1,1427 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "scope": "All 35 Naxxramas API cards (30 collectible, 5 tokens). Verified initial numeric/type data and sourced changes, not an exhaustive exact-text or bug-fix chronology.",
+  "originalHead": "dead3f5f7f0000fa5332811a9a610f7f3e0e6aba",
+  "datePolicy": "Korean server effective days are independently sourced. Client archive commits are observations, not release timestamps.",
+  "rawDataPolicy": "nativeTags and nativeRawText are unchanged installed-source evidence, not the date-effective gameplay state.",
+  "textPolicy": "Known functional text changes are dated. Cosmetic wording without a verified effective date uses existing normalized wording; original text and observed ranges are explicit here. Such cards are NOT certified complete initial-spec reconstructions.",
+  "cards": [
+    {
+      "id": "FP1_001",
+      "releasedAt": "2014-08-13",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 2,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "간식용 좀비",
+      "initialRawText": "<b>죽음의 메아리:</b> 적 영웅의 생명력을 5 회복시킵니다.",
+      "historicalDisplayTextStatus": "release wording matches after formatting normalization",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_002",
+      "releasedAt": "2014-07-23",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 1,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "유령 들린 거미",
+      "initialRawText": "<b>죽음의 메아리:</b> 1/1 유령 거미를 2마리 소환합니다.",
+      "historicalDisplayTextStatus": "release wording matches after formatting normalization",
+      "datedPatches": [
+        {
+          "date": "2014-12-05",
+          "changes": {
+            "legacyArt": false
+          }
+        }
+      ],
+      "observedTextTransitions": [],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": [
+        "BEAST"
+      ]
+    },
+    {
+      "id": "FP1_002t",
+      "releasedAt": "2014-07-23",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "유령 거미",
+      "initialRawText": "",
+      "historicalDisplayTextStatus": "release wording matches after formatting normalization",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "BEAST"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_003",
+      "releasedAt": "2014-08-20",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 1,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "고동치는 수액괴물",
+      "initialRawText": "<b>전투의 함성:</b> 턴이 끝날 때, 이 하수인을 복사합니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "earlierRawText": "<b>전투의 함성:</b> 턴이 끝날 때, 이 하수인을 복사합니다.",
+          "laterRawText": "[x]<b>전투의 함성:</b>\n턴이 끝날 때, 이 하수인을\n복사하여 소환합니다.",
+          "earlierName": "고동치는 수액괴물",
+          "laterName": "고동치는 수액괴물",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_004",
+      "releasedAt": "2014-08-13",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "미치광이 과학자",
+      "initialRawText": "<b>죽음의 메아리:</b> 덱에 있는 <b>비밀</b> 카드 1장을 사용합니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "5.0.0.12574",
+          "earlierRawText": "<b>죽음의 메아리:</b> 덱에 있는 <b>비밀</b> 카드 1장을 사용합니다.",
+          "laterRawText": "<b>죽음의 메아리:</b> 내 덱에 있는 <b>비밀</b> 카드 1장을 사용합니다.",
+          "earlierName": "미치광이 과학자",
+          "laterName": "미치광이 과학자",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "[x]<b>죽음의 메아리:</b>\n내 덱에 있는 <b>비밀</b> 카드\n1장을 사용합니다.",
+          "laterRawText": "<b>죽음의 메아리:</b> 내 덱에 있는 <b>비밀</b>을 시전합니다.",
+          "earlierName": "미치광이 과학자",
+          "laterName": "미치광이 과학자",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_005",
+      "releasedAt": "2014-08-20",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "낙스라마스의 망령",
+      "initialRawText": "<b>은신.</b> 내 턴이 시작될 때, +1/+1을 얻습니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "20.0.0.77662",
+          "byObservedBuild": "26.0.0.170824",
+          "earlierRawText": "<b>은신.</b> 내 턴이 시작될 때, +1/+1을 얻습니다.",
+          "laterRawText": "<b>은신</b>\n내 턴이 시작될 때, +1/+1을 얻습니다.",
+          "earlierName": "낙스라마스의 망령",
+          "laterName": "낙스라마스의 망령",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_007",
+      "releasedAt": "2014-07-23",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "네루비안 알",
+      "initialRawText": "<b>죽음의 메아리:</b> 4/4 네루비안을 하나 소환합니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "<b>죽음의 메아리:</b>\n4/4 네루비안을\n하나 소환합니다.",
+          "laterRawText": "<b>죽음의 메아리:</b>\n4/4 네루비안을\n소환합니다.",
+          "earlierName": "네루비안 알",
+          "laterName": "네루비안 알",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_007t",
+      "releasedAt": "2014-07-23",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 4,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "네루비안",
+      "initialRawText": "",
+      "historicalDisplayTextStatus": "release wording matches after formatting normalization",
+      "datedPatches": [
+        {
+          "date": "2016-08-10",
+          "changes": {
+            "cost": 4
+          }
+        },
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_008",
+      "releasedAt": "2014-08-06",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 4,
+        "health": 6,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "유령 기사",
+      "initialRawText": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        },
+        {
+          "date": "2024-03-12",
+          "changes": {
+            "text": "<b>모면</b>",
+            "mechanics": [
+              "ELUSIVE"
+            ]
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다.",
+          "laterRawText": "주문이나 영웅 능력의 대상으로 지정되지 않습니다.",
+          "earlierName": "유령 기사",
+          "laterName": "유령 기사",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "28.6.0.193541",
+          "byObservedBuild": "31.2.0.212197",
+          "earlierRawText": "주문이나 영웅 능력의 대상으로 지정되지 않습니다.",
+          "laterRawText": "<b>모면</b>",
+          "earlierName": "유령 기사",
+          "laterName": "유령 기사",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_009",
+      "releasedAt": "2014-08-06",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 8,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "죽음의 군주",
+      "initialRawText": "<b>도발. 죽음의 메아리:</b> 상대편이 덱에 있는 하수인 하나를 전장에 놓습니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "5.0.0.12574",
+          "earlierRawText": "<b>도발. 죽음의 메아리:</b> 상대편이 덱에 있는 하수인 하나를 전장에 놓습니다.",
+          "laterRawText": "<b>도발. 죽음의 메아리:</b> 상대편이 덱에서 하수인 하나를 뽑아 전장에 놓습니다.",
+          "earlierName": "죽음의 군주",
+          "laterName": "죽음의 군주",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "earlierRawText": "<b>도발. 죽음의 메아리:</b> 상대편이 덱에서 하수인 하나를 뽑아 전장에 놓습니다.",
+          "laterRawText": "<b>도발</b>, <b>죽음의 메아리:</b> 상대편이 덱에서 하수인 하나를 뽑아 전장에 놓습니다.",
+          "earlierName": "죽음의 군주",
+          "laterName": "죽음의 군주",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "<b>도발</b>, <b>죽음의 메아리:</b> 상대편이 덱에서 하수인 하나를 뽑아 전장에 놓습니다.",
+          "laterRawText": "<b>도발</b>, <b>죽음의 메아리:</b> 상대편이 덱에서 하수인을 소환합니다.",
+          "earlierName": "죽음의 군주",
+          "laterName": "죽음의 군주",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_010",
+      "releasedAt": "2014-07-23",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 2,
+        "health": 8,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "맥스나",
+      "initialRawText": "이 하수인에게 피해를 입은 하수인은 무조건 죽습니다.",
+      "historicalDisplayTextStatus": "release wording matches after formatting normalization",
+      "datedPatches": [
+        {
+          "date": "2017-03-01",
+          "changes": {
+            "text": "<b>독성</b>"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "6.0.0.13921",
+          "byObservedBuild": "11.0.0.23966",
+          "earlierRawText": "이 하수인에게\n피해를 입은 하수인은 무조건 죽습니다.",
+          "laterRawText": "<b>독성</b>",
+          "earlierName": "맥스나",
+          "laterName": "맥스나",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": [
+        "BEAST"
+      ]
+    },
+    {
+      "id": "FP1_011",
+      "releasedAt": "2014-07-30",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "그물거미",
+      "initialRawText": "<b>죽음의 메아리:</b> 무작위 야수 카드 1장을 손으로 가져옵니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "5.0.0.12574",
+          "earlierRawText": "<b>죽음의 메아리:</b> 무작위 야수 카드 1장을 손으로 가져옵니다.",
+          "laterRawText": "<b>죽음의 메아리:</b> 무작위 야수 카드 1장을 내 손으로 가져옵니다.",
+          "earlierName": "그물거미",
+          "laterName": "그물거미",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "<b>죽음의_메아리:</b> 무작위 야수 카드 1장을 내 손으로 가져옵니다.",
+          "laterRawText": "<b>죽음의_메아리:</b>\n무작위 야수를 내\n손으로 가져옵니다.",
+          "earlierName": "그물거미",
+          "laterName": "그물거미",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "earlierRawText": "<b>죽음의_메아리:</b>\n무작위 야수를 내\n손으로 가져옵니다.",
+          "laterRawText": "<b>죽음의 메아리:</b> 무작위 야수를 얻습니다.",
+          "earlierName": "그물거미",
+          "laterName": "그물거미",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": [
+        "BEAST"
+      ]
+    },
+    {
+      "id": "FP1_012",
+      "releasedAt": "2014-07-30",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 3,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "썩은위액 누더기골렘",
+      "initialRawText": "<b>도발.\n죽음의 메아리:</b> <b>도발</b> 능력을 가진 1/2 수액괴물을 1마리 소환합니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        },
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "health": 6
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "5.0.0.12574",
+          "earlierRawText": "<b>도발.\n죽음의 메아리:</b> <b>도발</b> 능력을 가진 1/2 수액괴물을 1마리 소환합니다.",
+          "laterRawText": "<b>도발\n죽음의 메아리:</b> <b>도발</b> 능력이 있는 1/2 수액괴물을 1마리 소환합니다.",
+          "earlierName": "썩은위액 누더기골렘",
+          "laterName": "썩은위액 누더기골렘",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "earlierRawText": "<b>도발\n죽음의 메아리:</b> <b>도발</b> 능력이 있는 1/2 수액괴물을 1마리 소환합니다.",
+          "laterRawText": "<b>도발\n죽음의 메아리:</b> <b>도발</b> 능력이 있는 1/2 수액괴물을 하나 소환합니다.",
+          "earlierName": "썩은위액 누더기골렘",
+          "laterName": "썩은위액 누더기골렘",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "<b>도발\n죽음의 메아리:</b> <b>도발</b> 능력이 있는 1/2 수액괴물을 하나 소환합니다.",
+          "laterRawText": "[x]<b>도발, 죽음의 메아리:</b>\n<b>도발</b> 능력이 있는 1/2\n수액괴물을 소환합니다.",
+          "earlierName": "썩은위액 누더기골렘",
+          "laterName": "썩은위액 누더기골렘",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "earlierRawText": "[x]<b>도발, 죽음의 메아리:</b>\n<b>도발</b> 능력이 있는 1/2\n수액괴물을 소환합니다.",
+          "laterRawText": "[x]<b>도발</b>, <b>죽음의 메아리:</b>\n<b>도발</b> 능력이 있는 1/2\n수액괴물을 소환합니다.",
+          "earlierName": "썩은위액 누더기골렘",
+          "laterName": "썩은위액 누더기골렘",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_012t",
+      "releasedAt": "2014-07-30",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 1,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "수액괴물",
+      "initialRawText": "<b>도발</b>",
+      "historicalDisplayTextStatus": "release wording matches after formatting normalization",
+      "datedPatches": [
+        {
+          "date": "2020-03-27",
+          "changes": {
+            "name": "부패한 수액괴물"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "<b>도발</b>",
+          "laterRawText": "<b>도발</b>",
+          "earlierName": "수액괴물",
+          "laterName": "부패한 수액괴물",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_013",
+      "releasedAt": "2014-08-20",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 8,
+        "attack": 6,
+        "health": 8,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "켈투자드",
+      "initialRawText": "각 턴이 끝날 때, 이번 턴에 죽은 모든 아군 하수인을 소환합니다.",
+      "historicalDisplayTextStatus": "release wording matches after formatting normalization",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_014",
+      "releasedAt": "2014-08-13",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 7,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "스탈라그",
+      "initialRawText": "<b>죽음의 메아리:</b> 만약 퓨진이 죽은 상태라면 타디우스를 소환합니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "5.0.0.12574",
+          "earlierRawText": "<b>죽음의 메아리:</b> 만약 퓨진이 죽은 상태라면 타디우스를 소환합니다.",
+          "laterRawText": "<b>죽음의 메아리:</b> 퓨진이 죽은 상태라면, 타디우스를 소환합니다.",
+          "earlierName": "스탈라그",
+          "laterName": "스탈라그",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_014t",
+      "releasedAt": "2014-08-13",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 10,
+        "attack": 11,
+        "health": 11,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "타디우스",
+      "initialRawText": "",
+      "historicalDisplayTextStatus": "release wording matches after formatting normalization",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_015",
+      "releasedAt": "2014-08-13",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 4,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "퓨진",
+      "initialRawText": "<b>죽음의 메아리:</b> 만약 스탈라그가 죽은 상태라면 타디우스를 소환합니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "5.0.0.12574",
+          "earlierRawText": "<b>죽음의 메아리:</b> 만약 스탈라그가 죽은 상태라면 타디우스를 소환합니다.",
+          "laterRawText": "<b>죽음의 메아리:</b> 스탈라그가 죽은 상태라면, 타디우스를 소환합니다.",
+          "earlierName": "퓨진",
+          "laterName": "퓨진",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_016",
+      "releasedAt": "2014-08-13",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 3,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "울부짖는 영혼",
+      "initialRawText": "<b>전투의 함성:</b> 내 다른 하수인들을 <b>침묵</b>시킵니다.",
+      "historicalDisplayTextStatus": "release wording matches after formatting normalization",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_017",
+      "releasedAt": "2014-07-23",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 1,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "네룹아르 그물군주",
+      "initialRawText": "<b>전투의 함성</b> 능력을 가진 하수인의 비용이 (2) 증가합니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "earlierRawText": "<b>전투의 함성</b> 능력을 가진 하수인의 비용이 (2) 증가합니다.",
+          "laterRawText": "<b>전투의 함성</b> 능력이 있는 하수인의 비용이\n(2) 증가합니다.",
+          "earlierName": "네룹아르 그물군주",
+          "laterName": "네룹아르 그물군주",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "6.0.0.13921",
+          "byObservedBuild": "11.0.0.23966",
+          "earlierRawText": "<b>전투의 함성</b> 능력이 있는 하수인의 비용이\n(2) 증가합니다.",
+          "laterRawText": "<b>전투의 함성</b> 하수인의 비용이\n(2) 증가합니다.",
+          "earlierName": "네룹아르 그물군주",
+          "laterName": "네룹아르 그물군주",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_018",
+      "releasedAt": "2014-07-30",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialRawName": "복제",
+      "initialRawText": "<b>비밀:</b> 아군 하수인이 죽으면, 그 하수인 카드 2장을 내 손으로 가져옵니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "ARCANE"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "6.0.0.13921",
+          "byObservedBuild": "11.0.0.23966",
+          "earlierRawText": "[x]<b>비밀:</b> 아군\n하수인이 죽으면,\n그 하수인 카드 2장을\n내 손으로 가져옵니다.",
+          "laterRawText": "<b>비밀:</b> 아군 하수인이 죽으면, 그 하수인을 둘 복사하여 내 손으로 가져옵니다.",
+          "earlierName": "복제",
+          "laterName": "복제",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_019",
+      "releasedAt": "2014-07-23",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialRawName": "독성 씨앗",
+      "initialRawText": "<b>모든</b> 하수인을 처치하고 2/2 나무정령으로 교체합니다.",
+      "historicalDisplayTextStatus": "release wording matches after formatting normalization",
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "NATURE"
+          }
+        }
+      ],
+      "observedTextTransitions": [],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_019t",
+      "releasedAt": "2014-07-23",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 2,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "나무정령",
+      "initialRawText": "",
+      "historicalDisplayTextStatus": "release wording matches after formatting normalization",
+      "datedPatches": [
+        {
+          "date": "2018-04-11",
+          "changes": {
+            "cost": 2
+          }
+        },
+        {
+          "date": "2023-04-05",
+          "changes": {
+            "cost": 1
+          }
+        }
+      ],
+      "observedTextTransitions": [],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_020",
+      "releasedAt": "2014-08-20",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialRawName": "앙갚음",
+      "initialRawText": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인 하나에게 +3/+2를 부여합니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "HOLY"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인 하나에게 +3/+2를 부여합니다.",
+          "laterRawText": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인에게 +3/+2를 부여합니다.",
+          "earlierName": "앙갚음",
+          "laterName": "앙갚음",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_021",
+      "releasedAt": "2014-08-13",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 4,
+        "health": 2,
+        "durability": 2
+      },
+      "initialType": "WEAPON",
+      "initialRawName": "죽음의 이빨",
+      "initialRawText": "<b>죽음의 메아리:</b> 이 무기가 파괴될 때, <b>모든</b> 하수인에게 피해를 1 줍니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "earlierRawText": "<b>죽음의 메아리:</b> 이 무기가 파괴될 때, <b>모든</b> 하수인에게 피해를 1 줍니다.",
+          "laterRawText": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n피해를 1 줍니다.",
+          "earlierName": "죽음의 이빨",
+          "laterName": "죽음의 이빨",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_022",
+      "releasedAt": "2014-08-06",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 3,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "공허소환사",
+      "initialRawText": "<b>죽음의 메아리:</b> 내 손의 무작위 악마 하나를 전장에 놓습니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "<b>죽음의 메아리:</b> 내 손의 무작위 악마 하나를 전장에 놓습니다.",
+          "laterRawText": "<b>죽음의 메아리:</b>\n내 손의 무작위 악마를 소환합니다.",
+          "earlierName": "공허소환사",
+          "laterName": "공허소환사",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": [
+        "DEMON"
+      ]
+    },
+    {
+      "id": "FP1_023",
+      "releasedAt": "2014-08-13",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 3,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "어둠의 이교도",
+      "initialRawText": "<b>죽음의 메아리:</b> 무작위 아군 하수인 하나에게 생명력을 +3 부여합니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "<b>죽음의 메아리:</b> 무작위 아군 하수인 하나에게 생명력을 +3 부여합니다.",
+          "laterRawText": "<b>죽음의 메아리:</b> 무작위 아군 하수인에게 생명력을 +3 부여합니다.",
+          "earlierName": "어둠의 이교도",
+          "laterName": "어둠의 이교도",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_024",
+      "releasedAt": "2014-07-30",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 1,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "불안정한 구울",
+      "initialRawText": "<b>도발</b>. <b>죽음의 메아리:</b> <b>모든</b> 하수인에게 피해를 1 줍니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "5.0.0.12574",
+          "earlierRawText": "<b>도발</b>. <b>죽음의 메아리:</b> <b>모든</b> 하수인에게 피해를 1 줍니다.",
+          "laterRawText": "<b>도발</b>\n<b>죽음의 메아리:</b> <b>모든</b> 하수인에게 피해를 1 줍니다.",
+          "earlierName": "불안정한 구울",
+          "laterName": "불안정한 구울",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_025",
+      "releasedAt": "2014-08-06",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialRawName": "윤회",
+      "initialRawText": "하수인을 하나 처치하고, 그 하수인을 최대 생명력으로 부활시킵니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "NATURE"
+          }
+        },
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "cost": 1
+          }
+        },
+        {
+          "date": "2026-11-04",
+          "changes": {
+            "text": "전설 하수인이 아닌 하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다."
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "earlierRawText": "하수인을 하나 처치하고, 그 하수인을 최대 생명력으로 부활시킵니다.",
+          "laterRawText": "하수인 하나를 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다.",
+          "earlierName": "윤회",
+          "laterName": "윤회",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "하수인 하나를 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다.",
+          "laterRawText": "하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다.",
+          "earlierName": "윤회",
+          "laterName": "윤회",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_026",
+      "releasedAt": "2014-07-23",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 5,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "아눕아르 복병",
+      "initialRawText": "<b>죽음의 메아리:</b> 무작위 아군 하수인 하나를 내 손으로 다시 가져옵니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "[x]<b>죽음의 메아리:</b>\n무작위 아군 하수인\n하나를 내 손으로\n다시 가져옵니다.",
+          "laterRawText": "<b>죽음의 메아리:</b> 무작위 아군 하수인을 내 손으로 다시 가져옵니다.",
+          "earlierName": "아눕아르 복병",
+          "laterName": "아눕아르 복병",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_027",
+      "releasedAt": "2014-07-30",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 1,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "돌가죽 가고일",
+      "initialRawText": "내 턴이 시작될 때, 이 하수인은 생명력을 모두 회복합니다.",
+      "historicalDisplayTextStatus": "release wording matches after formatting normalization",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_028",
+      "releasedAt": "2014-08-13",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 1,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "장의사",
+      "initialRawText": "내가 <b>죽음의 메아리</b> 능력을 가진 하수인을 소환할 때마다 +1/+1을 얻습니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2015-01-30",
+          "changes": {
+            "text": "내가 <b>죽음의 메아리</b> 하수인을 소환할 때마다 공격력을 +1 얻습니다."
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "text": "내가 <b>죽음의 메아리</b> 하수인을 소환할 때마다 +1/+1을 얻습니다."
+          }
+        },
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "2.0.0.7234",
+          "byObservedBuild": "2.1.0.7628",
+          "earlierRawText": "내가 <b>죽음의 메아리</b> 능력을 가진 하수인을 소환할 때마다 +1/+1을 얻습니다.",
+          "laterRawText": "내가 <b>죽음의 메아리</b> 능력을 가진 하수인을 소환할 때마다 공격력을 +1 얻습니다.",
+          "earlierName": "장의사",
+          "laterName": "장의사",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "earlierRawText": "내가 <b>죽음의 메아리</b> 능력을 가진 하수인을 소환할 때마다 공격력을 +1 얻습니다.",
+          "laterRawText": "내가 <b>죽음의 메아리</b> 능력이 있는 하수인을 소환할 때마다 공격력을 +1 얻습니다.",
+          "earlierName": "장의사",
+          "laterName": "장의사",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "6.0.0.13921",
+          "byObservedBuild": "11.0.0.23966",
+          "earlierRawText": "내가 <b>죽음의 메아리</b> 능력이 있는 하수인을 소환할 때마다 공격력을 +1 얻습니다.",
+          "laterRawText": "내가 <b>죽음의 메아리</b> 하수인을 소환할 때마다 공격력을 +1 얻습니다.",
+          "earlierName": "장의사",
+          "laterName": "장의사",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "17.0.0.44222",
+          "byObservedBuild": "20.0.0.77662",
+          "earlierRawText": "내가 <b>죽음의 메아리</b> 하수인을 소환할 때마다 공격력을 +1 얻습니다.",
+          "laterRawText": "내가 <b>죽음의 메아리</b> 하수인을 소환할 때마다 +1/+1을 얻습니다.",
+          "earlierName": "장의사",
+          "laterName": "장의사",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_029",
+      "releasedAt": "2014-08-06",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 4,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "춤추는 검",
+      "initialRawText": "<b>죽음의 메아리:</b> 상대편이 카드를 1장 뽑습니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "11.0.0.23966",
+          "byObservedBuild": "17.0.0.44222",
+          "earlierRawText": "<b>죽음의 메아리:</b> 상대편이 카드를 1장 뽑습니다.",
+          "laterRawText": "[x]<b>죽음의 메아리:</b>\n상대편이 카드를 뽑습니다.",
+          "earlierName": "춤추는 검",
+          "laterName": "춤추는 검",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_030",
+      "releasedAt": "2014-07-30",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 5,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "로데브",
+      "initialRawText": "<b>죽음의 메아리:</b> 다음 턴에 적이 쓰는 주문의 비용이 (5) 증가합니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2014-08-01",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다."
+          }
+        },
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "1.1.0.6024",
+          "byObservedBuild": "1.1.0.6141",
+          "earlierRawText": "<b>죽음의 메아리:</b> 다음 턴에 적이 쓰는 주문의 비용이 (5) 증가합니다.",
+          "laterRawText": "<b>전투의 함성:</b> 다음 턴에 적이 쓰는 주문의 비용이 (5) 증가합니다.",
+          "earlierName": "로데브",
+          "laterName": "로데브",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "2.1.0.7628",
+          "byObservedBuild": "5.0.0.12574",
+          "earlierRawText": "<b>전투의 함성:</b> 다음 턴에 적이 쓰는 주문의 비용이 (5) 증가합니다.",
+          "laterRawText": "<b>전투의 함성:</b> 다음 턴에 적이 시전하는 주문의 비용이 (5) 증가합니다.",
+          "earlierName": "로데브",
+          "laterName": "로데브",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        },
+        {
+          "afterObservedBuild": "6.0.0.13921",
+          "byObservedBuild": "11.0.0.23966",
+          "earlierRawText": "<b>전투의 함성:</b> 다음 턴에 적이 시전하는 주문의 비용이 (5) 증가합니다.",
+          "laterRawText": "<b>전투의 함성:</b> 다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+          "earlierName": "로데브",
+          "laterName": "로데브",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    },
+    {
+      "id": "FP1_031",
+      "releasedAt": "2014-08-06",
+      "releaseDateStatus": "verified Korean constructed reward availability",
+      "initialNumericSpecStatus": "verified against 1.1.0.6024",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 1,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialRawName": "남작 리븐데어",
+      "initialRawText": "내 하수인들의 <b>죽음의 메아리</b> 능력이 2번 발동됩니다.",
+      "historicalDisplayTextStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ],
+      "observedTextTransitions": [
+        {
+          "afterObservedBuild": "5.0.0.12574",
+          "byObservedBuild": "6.0.0.13921",
+          "earlierRawText": "내 하수인들의 <b>죽음의 메아리</b> 능력이 2번 발동됩니다.",
+          "laterRawText": "내 하수인들의\n<b>죽음의 메아리</b> 능력이 2번 발동합니다.",
+          "earlierName": "남작 리븐데어",
+          "laterName": "남작 리븐데어",
+          "dateStatus": "observation-range-only; not an asserted Korean effective date"
+        }
+      ],
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "initialRaces": []
+    }
+  ]
+}

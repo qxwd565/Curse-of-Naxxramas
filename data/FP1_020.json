@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Avenge",
   "card": {
@@ -15,7 +15,7 @@
     "rarity": "COMMON",
     "race": "",
     "races": [],
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "cost": 1,
     "attack": 0,
     "health": 0,
@@ -65,7 +65,18 @@
     "nativeRawText": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인에게 +3/+2를 부여합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2014-08-20",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "mechanics": [
+      "SECRET"
+    ],
+    "patches": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "HOLY"
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],
@@ -85,5 +96,21 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.1.0.6024",
+      "name": "앙갚음",
+      "rawText": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인 하나에게 +3/+2를 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "lastObservedBuild": "11.0.0.23966"
+    },
+    {
+      "build": "17.0.0.44222",
+      "name": "앙갚음",
+      "rawText": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인에게 +3/+2를 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/fc67953f6f6eee064badde3f4a7bd07011508642/CardDefs.xml",
+      "lastObservedBuild": "31.2.0.212197"
+    }
+  ]
 }

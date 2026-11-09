@@ -11,7 +11,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 1,
-      "text": "<b>죽음의 메아리:</b>\n적 영웅의 생명력을\n#5 회복시킵니다.",
+      "text": "<b>죽음의 메아리:</b><br></br>적 영웅의 생명력을<br></br>#5 회복시킵니다.",
       "attack": 2,
       "health": 3,
       "durability": 0,
@@ -75,7 +75,9 @@
         "DEATHRATTLE"
       ],
       "releasedAt": "2014-08-13",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_002",
@@ -158,7 +160,9 @@
         1782
       ],
       "releasedAt": "2014-07-23",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_002t",
@@ -220,7 +224,9 @@
         }
       ],
       "releasedAt": "2014-07-23",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_003",
@@ -231,7 +237,7 @@
       "rarity": "EPIC",
       "collectible": true,
       "cost": 2,
-      "text": "<b>전투의 함성:</b>\n턴이 끝날 때, 이 하수인을\n복사하여 소환합니다.",
+      "text": "<b>전투의 함성:</b><br></br>턴이 끝날 때, 이 하수인을<br></br>복사하여 소환합니다.",
       "attack": 1,
       "health": 2,
       "durability": 0,
@@ -286,7 +292,11 @@
         "BATTLECRY"
       ],
       "releasedAt": "2014-08-20",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "FP1_004",
@@ -367,7 +377,9 @@
         "SECRET"
       ],
       "releasedAt": "2014-08-13",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_005",
@@ -378,7 +390,7 @@
       "rarity": "EPIC",
       "collectible": true,
       "cost": 3,
-      "text": "<b>은신</b>\n내 턴이 시작될 때, +1/+1을 얻습니다.",
+      "text": "<b>은신</b><br></br>내 턴이 시작될 때, +1/+1을 얻습니다.",
       "attack": 2,
       "health": 2,
       "durability": 0,
@@ -448,7 +460,9 @@
         "STEALTH"
       ],
       "releasedAt": "2014-08-20",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_007",
@@ -459,7 +473,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 2,
-      "text": "<b>죽음의 메아리:</b>\n4/4 네루비안을\n소환합니다.",
+      "text": "<b>죽음의 메아리:</b><br></br>4/4 네루비안을<br></br>소환합니다.",
       "attack": 0,
       "health": 2,
       "durability": 0,
@@ -522,7 +536,11 @@
         1787
       ],
       "releasedAt": "2014-07-23",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "FP1_007t",
@@ -578,7 +596,9 @@
         }
       ],
       "releasedAt": "2014-07-23",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_008",
@@ -650,7 +670,12 @@
         }
       ],
       "releasedAt": "2014-08-06",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": "",
+      "mechanics": [
+        "ELUSIVE"
+      ]
     },
     {
       "id": "FP1_009",
@@ -736,7 +761,9 @@
         "DEATHRATTLE"
       ],
       "releasedAt": "2014-08-06",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_010",
@@ -831,7 +858,9 @@
         "POISONOUS"
       ],
       "releasedAt": "2014-07-23",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_011",
@@ -906,7 +935,9 @@
         "DEATHRATTLE"
       ],
       "releasedAt": "2014-07-30",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_012",
@@ -917,7 +948,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 5,
-      "text": "<b>도발</b>, <b>죽음의 메아리:</b>\n<b>도발</b> 능력이 있는 1/2\n수액괴물을 소환합니다.",
+      "text": "<b>도발</b>, <b>죽음의 메아리:</b><br></br><b>도발</b> 능력이 있는 1/2<br></br>수액괴물을 소환합니다.",
       "attack": 3,
       "health": 6,
       "durability": 0,
@@ -995,7 +1026,9 @@
         1795
       ],
       "releasedAt": "2014-07-30",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_012t",
@@ -1050,7 +1083,11 @@
         "TAUNT"
       ],
       "releasedAt": "2014-07-30",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "FP1_013",
@@ -1130,7 +1167,9 @@
         "TRIGGER_VISUAL"
       ],
       "releasedAt": "2014-08-20",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_014",
@@ -1141,7 +1180,7 @@
       "rarity": "LEGENDARY",
       "collectible": true,
       "cost": 5,
-      "text": "<b>죽음의 메아리:</b>\n퓨진이 죽은 상태라면,\n타디우스를 소환합니다.",
+      "text": "<b>죽음의 메아리:</b><br></br>퓨진이 죽은 상태라면,<br></br>타디우스를 소환합니다.",
       "attack": 7,
       "health": 4,
       "durability": 0,
@@ -1214,7 +1253,9 @@
         1798
       ],
       "releasedAt": "2014-08-13",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_014t",
@@ -1275,7 +1316,9 @@
         }
       ],
       "releasedAt": "2014-08-13",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_015",
@@ -1286,7 +1329,7 @@
       "rarity": "LEGENDARY",
       "collectible": true,
       "cost": 5,
-      "text": "<b>죽음의 메아리:</b>\n스탈라그가 죽은 상태라면,\n타디우스를 소환합니다.",
+      "text": "<b>죽음의 메아리:</b><br></br>스탈라그가 죽은 상태라면,<br></br>타디우스를 소환합니다.",
       "attack": 4,
       "health": 7,
       "durability": 0,
@@ -1359,7 +1402,9 @@
         1798
       ],
       "releasedAt": "2014-08-13",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_016",
@@ -1370,7 +1415,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 4,
-      "text": "<b>전투의 함성:</b>\n내 다른 하수인들을 <b>침묵</b>시킵니다.",
+      "text": "<b>전투의 함성:</b><br></br>내 다른 하수인들을 <b>침묵</b>시킵니다.",
       "attack": 3,
       "health": 5,
       "durability": 0,
@@ -1439,7 +1484,9 @@
         "BATTLECRY"
       ],
       "releasedAt": "2014-08-13",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_017",
@@ -1519,7 +1566,9 @@
         "BATTLECRY"
       ],
       "releasedAt": "2014-07-23",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_018",
@@ -1581,7 +1630,10 @@
         "SECRET"
       ],
       "releasedAt": "2014-07-30",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": ""
     },
     {
       "id": "FP1_019",
@@ -1592,7 +1644,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 4,
-      "text": "<b>모든</b> 하수인을 처치하고\n2/2 나무정령으로\n교체합니다.",
+      "text": "<b>모든</b> 하수인을 처치하고<br></br>2/2 나무정령으로<br></br>교체합니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -1643,7 +1695,10 @@
         1803
       ],
       "releasedAt": "2014-07-23",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": ""
     },
     {
       "id": "FP1_019t",
@@ -1695,7 +1750,11 @@
         }
       ],
       "releasedAt": "2014-07-23",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "FP1_020",
@@ -1757,7 +1816,10 @@
         "SECRET"
       ],
       "releasedAt": "2014-08-20",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": ""
     },
     {
       "id": "FP1_021",
@@ -1768,7 +1830,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 4,
-      "text": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n피해를 1 줍니다.",
+      "text": "<b>죽음의 메아리:</b><br></br><b>모든</b> 하수인에게<br></br>피해를 1 줍니다.",
       "attack": 4,
       "health": 2,
       "durability": 2,
@@ -1823,7 +1885,11 @@
         "DEATHRATTLE"
       ],
       "releasedAt": "2014-08-13",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "FP1_022",
@@ -1834,7 +1900,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 4,
-      "text": "<b>죽음의 메아리:</b>\n내 손의 무작위 악마를 소환합니다.",
+      "text": "<b>죽음의 메아리:</b><br></br>내 손의 무작위 악마를 소환합니다.",
       "attack": 3,
       "health": 4,
       "durability": 0,
@@ -1898,7 +1964,9 @@
         "DEATHRATTLE"
       ],
       "releasedAt": "2014-08-06",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_023",
@@ -1964,7 +2032,11 @@
         "DEATHRATTLE"
       ],
       "releasedAt": "2014-08-13",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "FP1_024",
@@ -1975,7 +2047,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 2,
-      "text": "<b>도발</b>\n<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n피해를 1 줍니다.",
+      "text": "<b>도발</b><br></br><b>죽음의 메아리:</b><br></br><b>모든</b> 하수인에게<br></br>피해를 1 줍니다.",
       "attack": 1,
       "health": 3,
       "durability": 0,
@@ -2045,7 +2117,9 @@
         "DEATHRATTLE"
       ],
       "releasedAt": "2014-07-30",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_025",
@@ -2056,7 +2130,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 1,
-      "text": "하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다.",
+      "text": "전설 하수인이 아닌 하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -2099,7 +2173,10 @@
         }
       ],
       "releasedAt": "2014-08-06",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": ""
     },
     {
       "id": "FP1_026",
@@ -2174,7 +2251,9 @@
         "DEATHRATTLE"
       ],
       "releasedAt": "2014-07-23",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_027",
@@ -2185,7 +2264,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 3,
-      "text": "내 턴이 시작될 때,\n이 하수인은 생명력을 모두 회복합니다.",
+      "text": "내 턴이 시작될 때,<br></br>이 하수인은 생명력을 모두 회복합니다.",
       "attack": 1,
       "health": 4,
       "durability": 0,
@@ -2249,7 +2328,9 @@
         "TRIGGER_VISUAL"
       ],
       "releasedAt": "2014-07-30",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_028",
@@ -2330,7 +2411,9 @@
         "DEATHRATTLE"
       ],
       "releasedAt": "2014-08-13",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_029",
@@ -2341,7 +2424,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 3,
-      "text": "<b>죽음의 메아리:</b>\n상대편이 카드를 뽑습니다.",
+      "text": "<b>죽음의 메아리:</b><br></br>상대편이 카드를 뽑습니다.",
       "attack": 4,
       "health": 4,
       "durability": 0,
@@ -2396,7 +2479,11 @@
         "DEATHRATTLE"
       ],
       "releasedAt": "2014-08-06",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "FP1_030",
@@ -2486,7 +2573,9 @@
         "BATTLECRY"
       ],
       "releasedAt": "2014-07-30",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "FP1_031",
@@ -2497,7 +2586,7 @@
       "rarity": "LEGENDARY",
       "collectible": true,
       "cost": 4,
-      "text": "내 하수인들의\n<b>죽음의 메아리</b> 능력이 2번 발동합니다.",
+      "text": "내 하수인들의<br></br><b>죽음의 메아리</b> 능력이 2번 발동합니다.",
       "attack": 1,
       "health": 7,
       "durability": 0,
@@ -2571,7 +2660,9 @@
         "DEATHRATTLE"
       ],
       "releasedAt": "2014-08-06",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     }
   ]
 }

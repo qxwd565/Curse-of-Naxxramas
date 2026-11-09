@@ -6,6 +6,7 @@ on:
       - 'cards.json'
       - 'release-policy.json'
       - 'data/**'
+      - 'tools/**'
   workflow_dispatch:
 permissions:
   contents: write
@@ -17,9 +18,11 @@ jobs:
       - name: Fetch verified shared API builder
         run: |
           mkdir -p tools
-          curl --fail --location --retry 3 --silent --show-error 'https://raw.githubusercontent.com/qxwd565/legacy/a39c65fc67695398e454fb01a651ac09d187c5c7/tools/build-api.py' -o tools/build-api.py
+          curl --fail --location --retry 3 --silent --show-error 'https://raw.githubusercontent.com/qxwd565/legacy/fd9de0e345c0c3730070427e1d42db1046f222e1/tools/build-api.py' -o tools/build-api.py
       - name: Generate current and historical API indexes
         run: python3 tools/build-api.py
+      - name: Validate Naxxramas release and patch history
+        run: python3 tools/test-naxx-history.py
       - name: Commit changed API indexes
         run: |
           git config user.name 'github-actions[bot]'

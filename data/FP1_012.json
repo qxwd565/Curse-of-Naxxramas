@@ -1,26 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Sludge Belcher",
   "card": {
     "id": "FP1_012",
     "dbfId": 1793,
     "name": "썩은위액 누더기골렘",
-    "text": "[x]<b>도발</b>, <b>죽음의 메아리:</b>\n<b>도발</b> 능력이 있는 1/2\n수액괴물을 소환합니다.",
+    "text": "<b>도발</b>, <b>죽음의 메아리:</b><br></br><b>도발</b> 능력이 있는 1/2<br></br>수액괴물을 소환합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],
     "nativeSetId": 12,
     "set": "NAXX",
     "rarity": "RARE",
-    "race": "언데드",
-    "races": [
-      "UNDEAD"
-    ],
+    "race": "",
+    "races": [],
     "spellSchool": "",
     "cost": 5,
     "attack": 3,
-    "health": 6,
+    "health": 5,
     "armor": 0,
     "durability": 0,
     "collectible": true,
@@ -87,7 +85,28 @@
     "nativeRawText": "[x]<b>도발</b>, <b>죽음의 메아리:</b>\n<b>도발</b> 능력이 있는 1/2\n수액괴물을 소환합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2014-07-30",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "mechanics": [
+      "TAUNT",
+      "DEATHRATTLE"
+    ],
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "UNDEAD"
+        }
+      },
+      {
+        "date": "2023-08-23",
+        "changes": {
+          "health": 6
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [
@@ -109,5 +128,41 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.1.0.6024",
+      "name": "썩은위액 누더기골렘",
+      "rawText": "<b>도발.\n죽음의 메아리:</b> <b>도발</b> 능력을 가진 1/2 수액괴물을 1마리 소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+      "lastObservedBuild": "2.1.0.7628"
+    },
+    {
+      "build": "5.0.0.12574",
+      "name": "썩은위액 누더기골렘",
+      "rawText": "<b>도발\n죽음의 메아리:</b> <b>도발</b> 능력이 있는 1/2 수액괴물을 1마리 소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/4f7206f440ab05115824b7263aa36cd94a96327f/CardDefs.xml"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "썩은위액 누더기골렘",
+      "rawText": "<b>도발\n죽음의 메아리:</b> <b>도발</b> 능력이 있는 1/2 수액괴물을 하나 소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "11.0.0.23966"
+    },
+    {
+      "build": "17.0.0.44222",
+      "name": "썩은위액 누더기골렘",
+      "rawText": "[x]<b>도발, 죽음의 메아리:</b>\n<b>도발</b> 능력이 있는 1/2\n수액괴물을 소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/fc67953f6f6eee064badde3f4a7bd07011508642/CardDefs.xml",
+      "lastObservedBuild": "26.0.0.170824"
+    },
+    {
+      "build": "27.2.0.183876",
+      "name": "썩은위액 누더기골렘",
+      "rawText": "[x]<b>도발</b>, <b>죽음의 메아리:</b>\n<b>도발</b> 능력이 있는 1/2\n수액괴물을 소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "lastObservedBuild": "31.2.0.212197"
+    }
+  ]
 }
