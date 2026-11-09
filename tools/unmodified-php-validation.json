@@ -1,0 +1,10 @@
+{
+  "result": "pass",
+  "validation": "offline unchanged parser; no deployment or database writes",
+  "runtime": "PHP WASM 8.5.12",
+  "pluginSourceCommit": "78ce6fdc4e70f689880a70d6f22aa77a6c75e337",
+  "importedCards": 35,
+  "historicalCases": 1960,
+  "checks": 1961,
+  "importValuesAndAssetsMatchOriginal": true
+}

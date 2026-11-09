@@ -1,0 +1,246 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "FP1_020",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2014-08-20",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All five Korean wing reward dates and initial numeric/type data have source support. Exact historical Korean wording and all intermediate cosmetic edits are not fully verified. Existing partial evidence is preserved; strict lookup does not promote it.",
+  "sourceCommit": "8073e268c660345a56e9b2dc745b42b9823a5c29",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Avenge",
+    "card": {
+      "id": "FP1_020",
+      "dbfId": 1804,
+      "name": "앙갚음",
+      "text": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인에게 +3/+2를 부여합니다.",
+      "type": "SPELL",
+      "cardClass": "PALADIN",
+      "classes": [],
+      "nativeSetId": 12,
+      "set": "NAXX",
+      "rarity": "COMMON",
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "cost": 1,
+      "attack": 0,
+      "health": 0,
+      "armor": 0,
+      "durability": 0,
+      "collectible": true,
+      "installed": true,
+      "portrait": "W11_083_D.psd:a87c40654c43b0848ba0a80f714c039a",
+      "flavor": "어쩐지 성기사의 하수인들은 서로 더 친한 것 같더니만...",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 5
+        }
+      ],
+      "nativeRawText": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인에게 +3/+2를 부여합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2014-08-20",
+      "releaseStatus": "verified",
+      "mechanics": [
+        "SECRET"
+      ],
+      "patches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "HOLY"
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 12,
+      "slug": "naxxramas",
+      "name": "낙스라마스의 저주",
+      "type": "adventure",
+      "englishName": "Naxxramas"
+    },
+    "setOrder": 42,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.1.0.6024",
+        "name": "앙갚음",
+        "rawText": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인 하나에게 +3/+2를 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+        "lastObservedBuild": "11.0.0.23966"
+      },
+      {
+        "build": "17.0.0.44222",
+        "name": "앙갚음",
+        "rawText": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인에게 +3/+2를 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/fc67953f6f6eee064badde3f4a7bd07011508642/CardDefs.xml",
+        "lastObservedBuild": "31.2.0.212197"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "FP1_020",
+    "dbfId": 1804,
+    "name": "앙갚음",
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인에게 +3/+2를 부여합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/FP1_020.png",
+    "flavor": "어쩐지 성기사의 하수인들은 서로 더 친한 것 같더니만...",
+    "spellSchool": "HOLY",
+    "portrait": "W11_083_D.psd:a87c40654c43b0848ba0a80f714c039a",
+    "set": "NAXX",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 5
+      }
+    ],
+    "mechanics": [
+      "SECRET"
+    ],
+    "releasedAt": "2014-08-20",
+    "releaseStatus": "verified",
+    "classes": [],
+    "races": [],
+    "race": ""
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "attack",
+    "durability",
+    "flavor",
+    "health",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "spellSchool",
+    "text",
+    "type"
+  ],
+  "baselineEvidence": {
+    "numericTypeStatus": "verified against 1.1.0.6024",
+    "textStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+    "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+    "audit": "tools/naxx-release-audit.json"
+  },
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "1.1.0.6024",
+        "name": "앙갚음",
+        "rawText": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인 하나에게 +3/+2를 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+        "lastObservedBuild": "11.0.0.23966"
+      },
+      {
+        "build": "17.0.0.44222",
+        "name": "앙갚음",
+        "rawText": "<b>비밀:</b> 내 하수인 중 하나가 죽으면, 무작위 아군 하수인에게 +3/+2를 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/fc67953f6f6eee064badde3f4a7bd07011508642/CardDefs.xml",
+        "lastObservedBuild": "31.2.0.212197"
+      }
+    ],
+    "reason": "Client observation ranges are not verified Korean effective dates."
+  },
+  "availabilityScope": "User-selected Korean normal-match play availability: constructed reward opening, excluding adventure-only previews and client preloading."
+}

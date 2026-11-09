@@ -1,0 +1,377 @@
+{
+  "result": "pass",
+  "sourceCommit": "8073e268c660345a56e9b2dc745b42b9823a5c29",
+  "cards": 35,
+  "sourceDocumentsPreserved": 35,
+  "events": 37,
+  "releaseDatesVerified": 35,
+  "partialExactInitialTexts": 23,
+  "baselineFullyVerified": 0,
+  "globalDateSamples": 56,
+  "exactSourceAndTransportChecks": 1960,
+  "types": {
+    "MINION": 30,
+    "SPELL": 4,
+    "WEAPON": 1
+  },
+  "newGameplayCorrections": [],
+  "baselineMechanicsCorrections": [
+    "FP1_004",
+    "FP1_017",
+    "FP1_028",
+    "FP1_031"
+  ],
+  "projectionChanges": [
+    {
+      "id": "FP1_001",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_002",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_002t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_003",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_004",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_005",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_007",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_007t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_008",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_009",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_010",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_011",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_012",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_012t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_013",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_014",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_014t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_015",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_016",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_017",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_018",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_019",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_019t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_020",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_021",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "health": 2,
+        "armor": 0
+      }
+    },
+    {
+      "id": "FP1_022",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_023",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_024",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_025",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_026",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_027",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_028",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_029",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_030",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "FP1_031",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0
+      }
+    }
+  ],
+  "presenceFixturesPassed": true
+}

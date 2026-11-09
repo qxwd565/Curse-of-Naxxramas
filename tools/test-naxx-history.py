@@ -5,7 +5,7 @@ from datetime import date, timedelta
 import copy, hashlib, importlib.util, json, re, subprocess, sys
 ROOT=Path(__file__).resolve().parents[1]
 def load(p):return json.loads((ROOT/p).read_text())
-spec=importlib.util.spec_from_file_location('api_builder',ROOT/'tools/build-api.py')
+spec=importlib.util.spec_from_file_location('api_builder',ROOT/'tools/wrapper_api_reference.py')
 builder=importlib.util.module_from_spec(spec);spec.loader.exec_module(builder)
 fixture=load('tools/naxx-original-current.json')
 original={c['id']:c for c in fixture['cards']}
@@ -16,7 +16,14 @@ policy=load('release-policy.json')
 audit=load('tools/naxx-release-audit.json')
 sources=load('tools/naxx-audit-sources.json')['events']
 observations=load('tools/naxx-client-observations.json')['cards']
-docs={p.stem:json.loads(p.read_text()) for p in (ROOT/'data').glob('*.json')}
+from date_schema import compatibility_card, read_card
+# Raw evidence stays immutable; gameplay assertions are fed by canonical date maps.
+docs={}
+for p in (ROOT/'data').glob('*.json'):
+    timeline, meta = read_card(ROOT, p.stem)
+    doc = copy.deepcopy(meta['originalSource'])
+    doc['card'] = compatibility_card(ROOT, p.stem)
+    docs[p.stem] = doc
 assert len(docs)==35 and set(docs)==set(current)==set(render)==set(original)
 assert sum(c['collectible'] for c in current.values())==30
 assert {c['dbfId'] for c in current.values()}=={c['dbfId'] for c in original.values()}
@@ -140,7 +147,7 @@ assert at('FP1_008','2024-03-12')['mechanics']==['ELUSIVE']
 assert sum('partial' in c['historicalDisplayTextStatus'] for c in audit['cards'])==23
 
 # Rebuilding twice must leave all source and bundle bytes identical.
-paths=[ROOT/p for p in ('cards.json','render.json','history.json')]+list((ROOT/'data').glob('*.json'))
+paths=[ROOT/p for p in ('cards.json','render.json','history.json','cards-date.json','render-date.json','history-date.json')]+list((ROOT/'data').glob('*.json'))
 before={p:p.read_bytes() for p in paths}
 subprocess.run([sys.executable,str(ROOT/'tools/build-api.py')],check=True,capture_output=True)
 assert all(p.read_bytes()==b for p,b in before.items()),'non-idempotent builder'

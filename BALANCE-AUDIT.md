@@ -29,3 +29,11 @@ All existing wing dates and raw native evidence are retained. The generated cata
 ## Validation
 
 `tools/test-naxx-history.py` checks all source JSON, numeric baselines, 13-build numerical observations, exact release/patch boundaries, forward/reverse equivalence, current regression exceptions, retained native evidence and display-break syntax. CI performs the same checks. A second build must make no byte changes. Commit and CI URLs are reported after publication; this document does not pre-claim a successful push.
+
+## Date-first migration follow-up
+
+The prior wrapper description above records the audit at `8073e268c660345a56e9b2dc745b42b9823a5c29`. Canonical files now use top-level KST dates; raw wrappers and all evidence are retained in immutable metadata sidecars. The 35 dates and 37 events are unchanged. Additional primary wing sources corroborate reward mappings, and the official Plague Quarter post independently confirms Loatheb's August 1 localization fix. The user-selected dates mean actual normal-match play availability in Korea, represented by the existing constructed reward dates; adventure-only previews and client preloading are excluded.
+
+The follow-up identifies four existing ability-list errors: Mad Scientist's Secret reference, Nerub'ar Weblord's Battlecry reference, Undertaker's Deathrattle reference and Baron Rivendare's Deathrattle reference. Canonical/precise lists now distinguish actual DEATHRATTLE, AURA or TRIGGER_VISUAL abilities from referenced keywords. Fifteen client snapshots corroborate the correction; no extra patch date is created. Old-client annotation semantics and current catalog bytes remain unchanged at the explicit compatibility boundary. See `docs/date-schema.md` and `tools/naxx-mechanics-evidence.json`.
+
+All prior wording gaps remain. The new 525 selected client observations add type/class/race/school/ability coverage through 37.0.2 but are not an every-build completeness claim. Adventure challenge availability is retained as historical context only, outside the confirmed normal-match date scope. Incomplete exact adventure card-identity proof does not block or change the constructed reward dates.

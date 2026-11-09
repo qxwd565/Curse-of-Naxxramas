@@ -1,20 +1,13 @@
-# Curse-of-Naxxramas
+# Curse of Naxxramas
 
-Korean constructed-card API. Canonical gameplay data lives in `data/<CARD_ID>.json`.
+Korean card API with date-first canonical data in `data/<CARD_ID>.json` and lossless evidence in `metadata/<CARD_ID>.json`.
 
-## History format
+- Initial date: available type-specific historical baseline. Later dates: changed fields only, in KST order. Explicit `__remove` distinguishes deletion from omission and literal zero/empty values.
+- Scope: 35 API IDs, 30 collectible cards, five tokens and 37 preserved events.
+- The selected date rule is **actual normal-match play availability in Korea**, represented here by the existing constructed reward dates and five separate wing openings. Adventure-only previews and client preloading do not move those dates. Generated tokens follow their parent cards.
+- Exact initial Korean wording remains incomplete for 23 cards. All full baseline confidence stays partial. No unknown cosmetic date is invented.
+- Four source `mechanics` annotation errors are corrected in canonical/precise states using 15 archived client snapshots. Original JSON and old-client behavior remain preserved.
 
-- `schemaVersion: 2`: `card.releasedAt` is the first Korean constructed reward availability day, not client preload or arena preview.
-- `card` holds the release numeric/type baseline. `card.patches` contains only changed fields, in increasing Korean effective-date order. Unchanged cards still have a dated baseline and an empty patches array.
-- Korean Naxxramas wing dates remain July 23, July 30, August 6, August 13 and August 20, 2014. Class challenges and generated tokens use their corresponding reward availability.
-- **Exact historical Korean wording is not fully verified.** For 23 cards, dated functional changes are modeled using normalized wording while the exact initial/intermediate cosmetic wording remains incomplete. Do not interpret those texts as certified original wording. `tools/naxx-release-audit.json` records each card's status, original text and observed build ranges.
-- `historicalTextObservations`, `nativeRawText` and `nativeTags` preserve raw evidence. Archive build observations are not patch dates. Installed native tags are not the date-effective gameplay specification.
-- Display strings use `<br></br>`. Raw evidence is deliberately unchanged.
+Existing clients keep `cards.json`, `render.json` and `history.json`. The current root catalog is byte-identical to the pinned pre-migration catalog. Precise opt-in clients use `cards-date.json`, `render-date.json` and `history-date.json`, with `historySchema: 2` for authoritative state and field removal. All six remain at the root so artwork links retain their base. Do not configure the old plugin to use the precise endpoints.
 
-## Generated bundles
-
-Run `python3 tools/build-api.py`, then `python3 tools/test-naxx-history.py`.
-
-`cards.json` is the current catalog. `render.json` contains current rendering data and sparse, bounded historical overrides. `history.json` is retained for existing clients. Do not hand-edit these generated bundles.
-
-The shared builder is pinned to `qxwd565/legacy@fd9de0e345c0c3730070427e1d42db1046f222e1`. CI rebuilds the same files and runs release, patch boundary, raw-evidence and current-value regressions. See `BALANCE-AUDIT.md` for the bounded audit scope and remaining gaps.
+Run `python3 tools/build-api.py` and the validation commands in [docs/date-schema.md](docs/date-schema.md). No plugin, database or site changes are required for the existing endpoints. [BALANCE-AUDIT.md](BALANCE-AUDIT.md) records the earlier bounded audit; [tools/naxx-date-recheck.json](tools/naxx-date-recheck.json) adds the new date-source review and limitations.

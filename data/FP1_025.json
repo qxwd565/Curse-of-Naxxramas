@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Reincarnate",
-  "card": {
+  "2014-08-06": {
     "id": "FP1_025",
     "dbfId": 1809,
     "name": "윤회",
@@ -10,118 +7,17 @@
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "classes": [],
-    "nativeSetId": 12,
-    "set": "NAXX",
     "rarity": "COMMON",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
     "cost": 2,
-    "attack": 0,
-    "health": 0,
-    "armor": 0,
-    "durability": 0,
-    "collectible": true,
-    "installed": true,
-    "portrait": "W3_030_D.psd:d2acb81d589a25147b20b42e8950f9cd",
-    "flavor": "여러분, 술사님 윤회 있으시답니다. 뛰지 마세요.",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 4
-      }
-    ],
-    "nativeRawText": "하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2014-08-06",
-    "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "NATURE"
-        }
-      },
-      {
-        "date": "2023-08-23",
-        "changes": {
-          "cost": 1
-        }
-      },
-      {
-        "date": "2026-11-04",
-        "changes": {
-          "text": "전설 하수인이 아닌 하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다."
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 12,
-    "slug": "naxxramas",
-    "name": "낙스라마스의 저주",
-    "type": "adventure",
-    "englishName": "Naxxramas"
+  "2021-03-26": {
+    "spellSchool": "NATURE"
   },
-  "setOrder": 42,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+  "2023-08-23": {
+    "cost": 1
   },
-  "historicalTextObservations": [
-    {
-      "build": "1.1.0.6024",
-      "name": "윤회",
-      "rawText": "하수인을 하나 처치하고, 그 하수인을 최대 생명력으로 부활시킵니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
-      "lastObservedBuild": "5.0.0.12574"
-    },
-    {
-      "build": "6.0.0.13921",
-      "name": "윤회",
-      "rawText": "하수인 하나를 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
-      "lastObservedBuild": "11.0.0.23966"
-    },
-    {
-      "build": "17.0.0.44222",
-      "name": "윤회",
-      "rawText": "하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/fc67953f6f6eee064badde3f4a7bd07011508642/CardDefs.xml",
-      "lastObservedBuild": "31.2.0.212197"
-    }
-  ]
+  "2026-11-04": {
+    "text": "전설 하수인이 아닌 하수인을 처치하고, 그 하수인을 최대 생명력으로 다시 소환합니다."
+  }
 }

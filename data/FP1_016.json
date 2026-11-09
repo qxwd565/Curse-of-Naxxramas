@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Wailing Soul",
-  "card": {
+  "2014-08-13": {
     "id": "FP1_016",
     "dbfId": 1799,
     "name": "울부짖는 영혼",
@@ -10,125 +7,19 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],
-    "nativeSetId": 12,
-    "set": "NAXX",
     "rarity": "RARE",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
     "cost": 4,
     "attack": 3,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
     "collectible": true,
-    "installed": true,
-    "portrait": "HS2-009_D.psd:0f9686a82841a9c4ab15d74d57350963",
-    "flavor": "정말 쉬지도 않고 계속 울부짖네요. 영혼아. 밥은 먹고 다니니?",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 5
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 11
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 339,
-        "name": "침묵",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "<b>전투의 함성:</b>\n내 다른 하수인들을 <b>침묵</b>시킵니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2014-08-13",
-    "releaseStatus": "verified",
     "mechanics": [
       "BATTLECRY"
-    ],
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ],
-          "race": "UNDEAD"
-        }
-      }
     ]
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 12,
-    "slug": "naxxramas",
-    "name": "낙스라마스의 저주",
-    "type": "adventure",
-    "englishName": "Naxxramas"
-  },
-  "setOrder": 42,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "1.1.0.6024",
-      "name": "울부짖는 영혼",
-      "rawText": "<b>전투의 함성:</b> 내 다른 하수인들을 <b>침묵</b>시킵니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
-      "lastObservedBuild": "5.0.0.12574"
-    },
-    {
-      "build": "6.0.0.13921",
-      "name": "울부짖는 영혼",
-      "rawText": "<b>전투의 함성:</b>\n내 다른 하수인들을 <b>침묵</b>시킵니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
-      "lastObservedBuild": "31.2.0.212197"
-    }
-  ]
+  "2022-11-30": {
+    "race": "UNDEAD",
+    "races": [
+      "UNDEAD"
+    ]
+  }
 }

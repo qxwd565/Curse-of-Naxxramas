@@ -1,0 +1,196 @@
+{
+  "schema": 1,
+  "reviewedOn": "2026-11-09",
+  "sourceCommit": "8073e268c660345a56e9b2dc745b42b9823a5c29",
+  "timezone": "Asia/Seoul",
+  "dateBasis": "User-selected Korean normal-match play availability: constructed reward opening, excluding adventure-only previews and client preloading.",
+  "releaseDateCorrections": [],
+  "balanceDateCorrections": [],
+  "wings": [
+    {
+      "wing": 1,
+      "date": "2014-07-23",
+      "cards": [
+        "FP1_002",
+        "FP1_002t",
+        "FP1_007",
+        "FP1_007t",
+        "FP1_010",
+        "FP1_017",
+        "FP1_019",
+        "FP1_019t",
+        "FP1_026"
+      ],
+      "primary": "https://hearthstone.blizzard.com/ko-kr/news/14833870",
+      "kstSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/14833865",
+        "https://www.inven.co.kr/webzine/news/?news=114795",
+        "https://www.etnews.com/20140723000353",
+        "https://www.icy-veins.com/forums/topic/6566-hearthstone-recap-curse-of-naxxramas-launch-patch-notes/"
+      ],
+      "confidence": "verified Korean constructed reward availability",
+      "note": "Official rendered header uses the prior calendar day; contemporary Korean reports resolve KST opening. The old /14833865 primary body does not itself explicitly state July 23; the contemporary etnews report does. Launch-week class challenge notes corroborate Druid and Rogue."
+    },
+    {
+      "wing": 2,
+      "date": "2014-07-30",
+      "cards": [
+        "FP1_011",
+        "FP1_012",
+        "FP1_012t",
+        "FP1_018",
+        "FP1_024",
+        "FP1_027",
+        "FP1_030"
+      ],
+      "primary": "https://hearthstone.blizzard.com/ko-kr/news/15009179",
+      "kstSources": [
+        "https://www.inven.co.kr/webzine/news/?news=115276&site=hs"
+      ],
+      "confidence": "verified Korean constructed reward availability",
+      "note": "Official rendered header uses the prior calendar day; contemporary Korean reports resolve KST opening."
+    },
+    {
+      "wing": 3,
+      "date": "2014-08-06",
+      "cards": [
+        "FP1_008",
+        "FP1_009",
+        "FP1_022",
+        "FP1_025",
+        "FP1_029",
+        "FP1_031"
+      ],
+      "primary": "https://hearthstone.blizzard.com/ko-kr/news/14933076",
+      "kstSources": [
+        "https://www.inven.co.kr/webzine/news/?news=115738"
+      ],
+      "confidence": "verified Korean constructed reward availability",
+      "note": "Official rendered header uses the prior calendar day; contemporary Korean reports resolve KST opening."
+    },
+    {
+      "wing": 4,
+      "date": "2014-08-13",
+      "cards": [
+        "FP1_001",
+        "FP1_004",
+        "FP1_014",
+        "FP1_014t",
+        "FP1_015",
+        "FP1_016",
+        "FP1_021",
+        "FP1_023",
+        "FP1_028"
+      ],
+      "primary": "https://hearthstone.blizzard.com/ko-kr/news/15157763/낙스라마스의-저주-피조물-지구가-열렸습니다-2014-08-13",
+      "kstSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=116229&site=hs",
+        "https://game.donga.com/75004/"
+      ],
+      "confidence": "verified Korean constructed reward availability",
+      "note": "Official rendered header uses the prior calendar day; contemporary Korean reports resolve KST opening."
+    },
+    {
+      "wing": 5,
+      "date": "2014-08-20",
+      "cards": [
+        "FP1_003",
+        "FP1_005",
+        "FP1_013",
+        "FP1_020"
+      ],
+      "primary": "https://hearthstone.blizzard.com/ko-kr/news/15233528",
+      "kstSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=116759&site=hs&vtype=mobile"
+      ],
+      "confidence": "verified Korean constructed reward availability",
+      "note": "Official rendered header uses the prior calendar day; contemporary Korean reports resolve KST opening. Official body has a two-challenge template error. Contemporary Korean reporting confirms the sole Paladin/Avenge challenge."
+    }
+  ],
+  "localization": {
+    "id": "FP1_030",
+    "date": "2014-08-01",
+    "source": "https://hearthstone.blizzard.com/ko-kr/news/15009179",
+    "finding": "The primary Plague Quarter post explicitly confirms an August 1 text correction and distinguishes the erroneous Deathrattle wording from the unchanged Battlecry effect."
+  },
+  "separateAvailabilityObservation": {
+    "reportedDay": "2014-08-06",
+    "source": "https://www.inven.co.kr/webzine/news/?news=115739",
+    "mentions": [
+      "Feugen",
+      "Stalagg",
+      "Thaddius"
+    ],
+    "context": "Shaman class-challenge guide",
+    "identityStatus": "Strong behavior match: launch-day guide describes Feugen/Stalagg conditional Deathrattles plus Reincarnate producing two 11/11 Thaddius tokens. Same-name heroic NAX13_04H/NAX13_05H entries lack that behavior. Direct challenge-deck/log binding to FP1 IDs remains unlocated; no release keys changed.",
+    "interpretationStatus": "Historical adventure-only context, outside the user-selected normal-match availability scope. Existing constructed reward dates remain authoritative; no date change is required.",
+    "candidateApiIds": [
+      "FP1_014",
+      "FP1_015",
+      "FP1_014t"
+    ],
+    "identityEvidence": [
+      "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml#L31778-L31968",
+      "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml#L35313-L35358",
+      "https://primagames.com/tips/hearthstone-curse-naxxramas-shaman-class-challenge"
+    ]
+  },
+  "scopeLimits": [
+    "No exhaustive every-build or exact-Korean-wording claim.",
+    "Twenty-three initial Korean descriptions remain partial; all 35 full baseline statuses remain partial.",
+    "Source-annotation corrections are documented separately from gameplay patch events.",
+    "Earlier adventure fixed-player-deck candidates remain historical context only. Exhaustive all-mode or boss-copy/steal research is outside the selected normal-match date scope."
+  ],
+  "otherEarlyChallengeCandidates": [
+    {
+      "context": "Druid wing-one fixed player deck",
+      "candidateApiIds": [
+        "FP1_027",
+        "FP1_003"
+      ],
+      "sourceObservedBy": "2014-07-30",
+      "sources": [
+        "https://www.icy-veins.com/hearthstone/curse-of-naxxramas-druid-class-challenge-guide"
+      ],
+      "status": "Named player-deck entries; guide update is not a proven earliest playable date.",
+      "dateScopeRelevance": "Historical context only; does not change the user-selected normal-match release date."
+    },
+    {
+      "context": "Rogue wing-one fixed player deck",
+      "candidateApiIds": [
+        "FP1_003",
+        "FP1_030"
+      ],
+      "sourceObservedBy": "2014-07-23",
+      "sources": [
+        "https://www.hearthpwn.com/decks/77192-curse-of-naxxramas-rogue-challenge-deck",
+        "https://primagames.com/tips/hearthstone-curse-naxxramas-rogue-class-challenge-tips"
+      ],
+      "status": "Launch-day user deck plus July30 guide; direct client deck/log mapping unlocated. No canonical date change.",
+      "dateScopeRelevance": "Historical context only; does not change the user-selected normal-match release date."
+    },
+    {
+      "context": "Mage wing-two fixed player deck",
+      "candidateApiIds": [
+        "FP1_004",
+        "FP1_028"
+      ],
+      "sourceObservedBy": "2014-08-04",
+      "sources": [
+        "https://primagames.com/tips/hearthstone-curse-naxxramas-mage-class-challenge"
+      ],
+      "status": "Guide proves an earlier described player deck, not necessarily the first-use day. No canonical date change.",
+      "dateScopeRelevance": "Historical context only; does not change the user-selected normal-match release date."
+    }
+  ],
+  "dateScopeDecision": {
+    "status": "confirmed",
+    "rule": "Use actual normal-match play availability in Korea.",
+    "normalMatchBasis": "Existing constructed reward dates; generated tokens follow their parent cards.",
+    "excluded": [
+      "Adventure-only fixed-deck appearances",
+      "Client data preloading"
+    ],
+    "dateChangesRequired": false
+  }
+}

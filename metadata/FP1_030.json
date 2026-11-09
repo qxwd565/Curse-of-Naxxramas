@@ -1,0 +1,333 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "FP1_030",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2014-07-30",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All five Korean wing reward dates and initial numeric/type data have source support. Exact historical Korean wording and all intermediate cosmetic edits are not fully verified. Existing partial evidence is preserved; strict lookup does not promote it.",
+  "sourceCommit": "8073e268c660345a56e9b2dc745b42b9823a5c29",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Loatheb",
+    "card": {
+      "id": "FP1_030",
+      "dbfId": 1914,
+      "name": "로데브",
+      "text": "<b>죽음의 메아리:</b> 다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "nativeSetId": 12,
+      "set": "NAXX",
+      "rarity": "LEGENDARY",
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "cost": 5,
+      "attack": 5,
+      "health": 5,
+      "armor": 0,
+      "durability": 0,
+      "collectible": true,
+      "installed": true,
+      "portrait": "HS2-003_D1.psd:a46850f76884724419a1bbd15b4f4f7a",
+      "flavor": "평범한 수렁 괴물 로데브, 몸에서 버섯 재배 수확 '충격'",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1932,
+          "name": "다이아몬드 카드 존재",
+          "value": 1
+        },
+        {
+          "id": 2589,
+          "name": "간판 카드 존재",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "<b>전투의 함성:</b> 다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2014-07-30",
+      "releaseStatus": "verified",
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "patches": [
+        {
+          "date": "2014-08-01",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다."
+          }
+        },
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "UNDEAD"
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 12,
+      "slug": "naxxramas",
+      "name": "낙스라마스의 저주",
+      "type": "adventure",
+      "englishName": "Naxxramas"
+    },
+    "setOrder": 42,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.1.0.6024",
+        "name": "로데브",
+        "rawText": "<b>죽음의 메아리:</b> 다음 턴에 적이 쓰는 주문의 비용이 (5) 증가합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml"
+      },
+      {
+        "build": "1.1.0.6141",
+        "name": "로데브",
+        "rawText": "<b>전투의 함성:</b> 다음 턴에 적이 쓰는 주문의 비용이 (5) 증가합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/d52b5841ec273f2a9566223893a04e2b41e5a8a0/CardDefs.xml",
+        "lastObservedBuild": "2.1.0.7628"
+      },
+      {
+        "build": "5.0.0.12574",
+        "name": "로데브",
+        "rawText": "<b>전투의 함성:</b> 다음 턴에 적이 시전하는 주문의 비용이 (5) 증가합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/4f7206f440ab05115824b7263aa36cd94a96327f/CardDefs.xml",
+        "lastObservedBuild": "6.0.0.13921"
+      },
+      {
+        "build": "11.0.0.23966",
+        "name": "로데브",
+        "rawText": "<b>전투의 함성:</b> 다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+        "lastObservedBuild": "31.2.0.212197"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "FP1_030",
+    "dbfId": 1914,
+    "name": "로데브",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b> 다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/FP1_030.png",
+    "flavor": "평범한 수렁 괴물 로데브, 몸에서 버섯 재배 수확 '충격'",
+    "portrait": "HS2-003_D1.psd:a46850f76884724419a1bbd15b4f4f7a",
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "UNDEAD",
+    "set": "NAXX",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1932,
+        "name": "다이아몬드 카드 존재",
+        "value": 1
+      },
+      {
+        "id": 2589,
+        "name": "간판 카드 존재",
+        "value": 1
+      }
+    ],
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "releasedAt": "2014-07-30",
+    "releaseStatus": "verified",
+    "classes": [],
+    "spellSchool": ""
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "baselineEvidence": {
+    "numericTypeStatus": "verified against 1.1.0.6024",
+    "textStatus": "partial: normalized functional wording; exact initial and intermediate Korean wording not fully represented in API",
+    "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml",
+    "audit": "tools/naxx-release-audit.json"
+  },
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "1.1.0.6024",
+        "name": "로데브",
+        "rawText": "<b>죽음의 메아리:</b> 다음 턴에 적이 쓰는 주문의 비용이 (5) 증가합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/ff82e0ab42e3d3f783c6a5e5fbd5c9d7bd9c8acb/CardDefs.xml"
+      },
+      {
+        "build": "1.1.0.6141",
+        "name": "로데브",
+        "rawText": "<b>전투의 함성:</b> 다음 턴에 적이 쓰는 주문의 비용이 (5) 증가합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/d52b5841ec273f2a9566223893a04e2b41e5a8a0/CardDefs.xml",
+        "lastObservedBuild": "2.1.0.7628"
+      },
+      {
+        "build": "5.0.0.12574",
+        "name": "로데브",
+        "rawText": "<b>전투의 함성:</b> 다음 턴에 적이 시전하는 주문의 비용이 (5) 증가합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/4f7206f440ab05115824b7263aa36cd94a96327f/CardDefs.xml",
+        "lastObservedBuild": "6.0.0.13921"
+      },
+      {
+        "build": "11.0.0.23966",
+        "name": "로데브",
+        "rawText": "<b>전투의 함성:</b> 다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+        "lastObservedBuild": "31.2.0.212197"
+      }
+    ],
+    "reason": "Client observation ranges are not verified Korean effective dates."
+  },
+  "availabilityScope": "User-selected Korean normal-match play availability: constructed reward opening, excluding adventure-only previews and client preloading."
+}
