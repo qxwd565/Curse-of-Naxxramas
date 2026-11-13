@@ -3,7 +3,10 @@
   "sourceCommit": "8073e268c660345a56e9b2dc745b42b9823a5c29",
   "oldPluginBase": "78ce6fdc4e70f689880a70d6f22aa77a6c75e337",
   "currentCards": 35,
-  "currentCatalogueByteIdentical": true,
+  "currentCatalogueByteIdentical": false,
+  "approvedDisplayTextRepair": [
+    "FP1_002"
+  ],
   "legacyDateCases": 1960,
   "artURLChecks": 210,
   "preservedAssetFiles": 214,
