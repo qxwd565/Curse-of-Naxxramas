@@ -26,6 +26,7 @@ jobs:
           python3 tools/migrate-date-schema.py
           python3 tools/build-api.py
           python3 tools/test-naxx-history.py
+          python3 tools/test-naxx-first-release.py
           python3 tools/test-date-schema.py
           python3 tools/test-naxx-mechanics.py
           python3 tools/test-legacy-compatibility.py

@@ -1,0 +1,376 @@
+{
+  "schema": 1,
+  "reviewedOn": "2026-11-13",
+  "timezone": "Asia/Seoul",
+  "scope": "Every collectible Naxxramas card (30) and directly generated token (5) in qxwd565/Curse-of-Naxxramas; earliest normal constructed/Arena availability in Korea, after a wing is opened, not a client preload or a fixed solo-adventure deck appearance.",
+  "rule": "Cards awarded by bosses, completed wings and class challenges become first usable in players' constructed decks on their wing's opening date. Tokens inherit the first available date of the generating parent; the two Feugen/Stalagg parents share Thaddius. No balance or cosmetic history reviewed or changed.",
+  "crossReferences": {
+    "originalBossAndLegendaryRewards": "https://www.icy-veins.com/hearthstone/introduction-to-the-curse-of-naxxramas",
+    "classChallengeToWing": "https://hearthstone.wiki.gg/wiki/Curse_of_Naxxramas_Class_Challenges",
+    "historicalKoreanDates": "Actual Korean opening day contemporaneously reported; official Blizzard article headers may be published in a different timezone and must not override Korean player availability."
+  },
+  "wings": [
+    {
+      "index": 1,
+      "name": "거미 지구",
+      "date": "2014-07-23",
+      "evidence": {
+        "officialBlizzard": "https://hearthstone.blizzard.com/ko-kr/news/14833870",
+        "contemporaryKoreanOpening": "https://www.inven.co.kr/webzine/news/?news=114795"
+      },
+      "cards": [
+        {
+          "id": "FP1_002",
+          "name": "유령 들린 거미",
+          "dbfId": 1781,
+          "role": "boss",
+          "unlock": "아눕레칸"
+        },
+        {
+          "id": "FP1_017",
+          "name": "네룹아르 그물군주",
+          "dbfId": 1800,
+          "role": "boss",
+          "unlock": "귀부인 팰리나"
+        },
+        {
+          "id": "FP1_007",
+          "name": "네루비안 알",
+          "dbfId": 1786,
+          "role": "boss",
+          "unlock": "맥스나"
+        },
+        {
+          "id": "FP1_010",
+          "name": "맥스나",
+          "dbfId": 1791,
+          "role": "wing-legendary",
+          "unlock": "거미 지구 완료"
+        },
+        {
+          "id": "FP1_019",
+          "name": "독성 씨앗",
+          "dbfId": 1802,
+          "role": "class-challenge",
+          "class": "DRUID"
+        },
+        {
+          "id": "FP1_026",
+          "name": "아눕아르 복병",
+          "dbfId": 1810,
+          "role": "class-challenge",
+          "class": "ROGUE"
+        },
+        {
+          "id": "FP1_002t",
+          "name": "유령 거미",
+          "dbfId": 1782,
+          "role": "generated",
+          "parentCardIds": [
+            "FP1_002"
+          ]
+        },
+        {
+          "id": "FP1_007t",
+          "name": "네루비안",
+          "dbfId": 1787,
+          "role": "generated",
+          "parentCardIds": [
+            "FP1_007"
+          ]
+        },
+        {
+          "id": "FP1_019t",
+          "name": "나무정령",
+          "dbfId": 1803,
+          "role": "generated",
+          "parentCardIds": [
+            "FP1_019"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "역병 지구",
+      "date": "2014-07-30",
+      "evidence": {
+        "officialBlizzard": "https://hearthstone.blizzard.com/ko-kr/news/15009179",
+        "contemporaryKoreanOpening": "https://www.inven.co.kr/webzine/news/?news=115276&site=hs"
+      },
+      "cards": [
+        {
+          "id": "FP1_027",
+          "name": "돌가죽 가고일",
+          "dbfId": 1861,
+          "role": "boss",
+          "unlock": "역병술사 노스"
+        },
+        {
+          "id": "FP1_024",
+          "name": "불안정한 구울",
+          "dbfId": 1808,
+          "role": "boss",
+          "unlock": "부정의 헤이건"
+        },
+        {
+          "id": "FP1_012",
+          "name": "썩은위액 누더기골렘",
+          "dbfId": 1793,
+          "role": "boss",
+          "unlock": "로데브"
+        },
+        {
+          "id": "FP1_030",
+          "name": "로데브",
+          "dbfId": 1914,
+          "role": "wing-legendary",
+          "unlock": "역병 지구 완료"
+        },
+        {
+          "id": "FP1_011",
+          "name": "그물거미",
+          "dbfId": 1860,
+          "role": "class-challenge",
+          "class": "HUNTER"
+        },
+        {
+          "id": "FP1_018",
+          "name": "복제",
+          "dbfId": 1801,
+          "role": "class-challenge",
+          "class": "MAGE"
+        },
+        {
+          "id": "FP1_012t",
+          "name": "부패한 수액괴물",
+          "dbfId": 1795,
+          "role": "generated",
+          "parentCardIds": [
+            "FP1_012"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "군사 지구",
+      "date": "2014-08-06",
+      "evidence": {
+        "officialBlizzard": "https://hearthstone.blizzard.com/ko-kr/news/14933076",
+        "contemporaryKoreanOpening": "https://www.inven.co.kr/webzine/news/?news=115738"
+      },
+      "cards": [
+        {
+          "id": "FP1_029",
+          "name": "춤추는 검",
+          "dbfId": 1913,
+          "role": "boss",
+          "unlock": "훈련교관 라주비어스"
+        },
+        {
+          "id": "FP1_008",
+          "name": "유령 기사",
+          "dbfId": 1789,
+          "role": "boss",
+          "unlock": "영혼 착취자 고딕"
+        },
+        {
+          "id": "FP1_009",
+          "name": "죽음의 군주",
+          "dbfId": 1790,
+          "role": "boss",
+          "unlock": "4인 기사단"
+        },
+        {
+          "id": "FP1_031",
+          "name": "남작 리븐데어",
+          "dbfId": 1915,
+          "role": "wing-legendary",
+          "unlock": "군사 지구 완료"
+        },
+        {
+          "id": "FP1_025",
+          "name": "윤회",
+          "dbfId": 1809,
+          "role": "class-challenge",
+          "class": "SHAMAN"
+        },
+        {
+          "id": "FP1_022",
+          "name": "공허소환사",
+          "dbfId": 1806,
+          "role": "class-challenge",
+          "class": "WARLOCK"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "피조물 지구",
+      "date": "2014-08-13",
+      "evidence": {
+        "officialBlizzard": "https://hearthstone.blizzard.com/ko-kr/news/15157763",
+        "contemporaryKoreanOpening": "https://www.inven.co.kr/webzine/news/?news=116229&site=hs"
+      },
+      "cards": [
+        {
+          "id": "FP1_028",
+          "name": "장의사",
+          "dbfId": 1910,
+          "role": "boss",
+          "unlock": "패치워크"
+        },
+        {
+          "id": "FP1_004",
+          "name": "미치광이 과학자",
+          "dbfId": 1783,
+          "role": "boss",
+          "unlock": "그라불루스"
+        },
+        {
+          "id": "FP1_001",
+          "name": "간식용 좀비",
+          "dbfId": 1753,
+          "role": "boss",
+          "unlock": "글루스"
+        },
+        {
+          "id": "FP1_016",
+          "name": "울부짖는 영혼",
+          "dbfId": 1799,
+          "role": "boss",
+          "unlock": "타디우스"
+        },
+        {
+          "id": "FP1_014",
+          "name": "스탈라그",
+          "dbfId": 1796,
+          "role": "wing-legendary",
+          "unlock": "피조물 지구 완료"
+        },
+        {
+          "id": "FP1_015",
+          "name": "퓨진",
+          "dbfId": 1797,
+          "role": "wing-legendary",
+          "unlock": "피조물 지구 완료"
+        },
+        {
+          "id": "FP1_021",
+          "name": "죽음의 이빨",
+          "dbfId": 1805,
+          "role": "class-challenge",
+          "class": "WARRIOR"
+        },
+        {
+          "id": "FP1_023",
+          "name": "어둠의 이교도",
+          "dbfId": 1807,
+          "role": "class-challenge",
+          "class": "PRIEST"
+        },
+        {
+          "id": "FP1_014t",
+          "name": "타디우스",
+          "dbfId": 1798,
+          "role": "generated",
+          "parentCardIds": [
+            "FP1_014",
+            "FP1_015"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "서리고룡 둥지",
+      "date": "2014-08-20",
+      "evidence": {
+        "officialBlizzard": "https://hearthstone.blizzard.com/ko-kr/news/15233528",
+        "contemporaryKoreanOpening": "https://m.inven.co.kr/webzine/wznews.php?idx=116759&site=hs&vtype=mobile"
+      },
+      "cards": [
+        {
+          "id": "FP1_003",
+          "name": "고동치는 수액괴물",
+          "dbfId": 1858,
+          "role": "boss",
+          "unlock": "사피론"
+        },
+        {
+          "id": "FP1_005",
+          "name": "낙스라마스의 망령",
+          "dbfId": 1784,
+          "role": "boss",
+          "unlock": "켈투자드"
+        },
+        {
+          "id": "FP1_013",
+          "name": "켈투자드",
+          "dbfId": 1794,
+          "role": "wing-legendary",
+          "unlock": "서리고룡 둥지 완료"
+        },
+        {
+          "id": "FP1_020",
+          "name": "앙갚음",
+          "dbfId": 1804,
+          "role": "class-challenge",
+          "class": "PALADIN"
+        }
+      ]
+    }
+  ],
+  "observedEarlierAdventureOnly": [
+    {
+      "id": "FP1_003",
+      "normalPlayDate": "2014-08-20",
+      "earlierMode": "Rogue/Druid class-challenge fixed player deck (first wing)",
+      "source": "https://www.hearthpwn.com/guides/566-naxxramas-rogue-class-challenge-guide",
+      "rationale": "Predefined adventure-only decks were playable before the later wing reward, but this does not grant normal-deck access."
+    },
+    {
+      "id": "FP1_030",
+      "normalPlayDate": "2014-07-30",
+      "earlierMode": "Rogue class-challenge fixed deck (first wing)",
+      "source": "https://www.hearthpwn.com/guides/566-naxxramas-rogue-class-challenge-guide",
+      "rationale": "Preloaded opponent/player-challenge card does not advance normal-match reward availability."
+    },
+    {
+      "id": "FP1_027",
+      "normalPlayDate": "2014-07-30",
+      "earlierMode": "Druid class-challenge fixed player deck (first wing)",
+      "source": "https://www.hearthpwn.com/guides/540-naxxramas-druid-class-challenge-guide",
+      "rationale": "Fixed deck use is kept distinct from normal-match availability."
+    },
+    {
+      "id": "FP1_014t",
+      "normalPlayDate": "2014-08-13",
+      "earlierMode": "Shaman class-challenge fixed deck during military quarter",
+      "source": "https://www.inven.co.kr/webzine/news/?news=115739",
+      "rationale": "Client identity of the adventure-generated Thaddius remains incompletely bound to the collectible's FP1 ID; not promoted to normal-match release."
+    }
+  ],
+  "result": {
+    "status": "verified-reward-availability",
+    "allCardIds": 35,
+    "collectible": 30,
+    "generatedTokens": 5,
+    "byRole": {
+      "boss": 15,
+      "wing-legendary": 6,
+      "class-challenge": 9,
+      "generated": 5
+    },
+    "incorrectOriginalReleaseDates": [],
+    "missingInCurrentAPIScope": [],
+    "unnecessaryFirstDayKeys": [],
+    "dateChangesRequired": false,
+    "remainingLimitations": [
+      "Historical direct game log not available for every encounter/reward; wing opening and unlock structure establish first availability",
+      "Exact first-version Korean text is a separate, still incomplete audit",
+      "All-mode playable encounters including adventure-only fixed decks are not counted in normal-match release dates"
+    ]
+  }
+}
