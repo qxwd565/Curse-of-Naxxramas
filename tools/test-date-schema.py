@@ -41,6 +41,11 @@ def independent_expected(document, day):
     actual_abilities = {'FP1_004':['DEATHRATTLE'], 'FP1_017':['AURA'],
                         'FP1_028':['TRIGGER_VISUAL'], 'FP1_031':['AURA']}
     if raw['id'] in actual_abilities:result['mechanics']=actual_abilities[raw['id']]
+    # Approved 2026 display-only underscore repair (single FP1_002 text field).
+    # Keep originalSource immutable; only canonical replay uses the correction.
+    if raw['id']=='FP1_002':
+        assert '죽음의_메아리' in result['text']
+        result['text']=result['text'].replace('죽음의_메아리','죽음의 메아리')
     return result
 
 

@@ -38,8 +38,13 @@ def main(fixture=None):
     assert len(by_id)==35 and len({c['dbfId'] for c in catalog['cards']})==35
     original=json.loads(source_bytes('cards.json'))
     original_history=json.loads(source_bytes('history.json'))['cards']
-    assert (ROOT/'cards.json').read_bytes()==source_bytes('cards.json'),'Current catalog byte drift'
-    assert json_equal(catalog,original)
+    # Original imported catalog remains frozen except the independently
+    # approved one-time Korean display repair in FP1_002 (1 text field).
+    expected_catalog=copy.deepcopy(original)
+    repaired=next(c for c in expected_catalog['cards'] if c['id']=='FP1_002')
+    assert '죽음의_메아리' in repaired['text']
+    repaired['text']=repaired['text'].replace('죽음의_메아리','죽음의 메아리')
+    assert json_equal(catalog,expected_catalog),'Current catalog drift beyond approved display text repair'
     original_by_id={c['id']:c for c in original['cards']}
     assets=set(subprocess.check_output(['git','ls-tree','-r','--name-only',SOURCE,'--','art','golden'],cwd=ROOT,text=True).splitlines())
     for asset in assets:assert (ROOT/asset).read_bytes()==source_bytes(asset),asset
@@ -61,7 +66,11 @@ def main(fixture=None):
         for day in sorted(dates):
             actual=old_resolve(current,rows,day)
             before=old_resolve(original_by_id[cid],original_history.get(dbf,{}).get('history',[]),day)
-            # Presence too, not just values; no exceptions in this migration.
+            # Presence too, not just values. Preserve the prior 1-field
+            # display-only Korean text correction, no other old behavior drift.
+            if cid=='FP1_002':
+                assert '죽음의_메아리' in before['text']
+                before['text']=before['text'].replace('죽음의_메아리','죽음의 메아리')
             assert json_equal(actual,before),(cid,day,'old behavior drift',actual,before)
             assert actual['id']==cid and actual['dbfId']==current['dbfId']
             cases.append({'id':cid,'dbfId':current['dbfId'],'date':day,
@@ -69,7 +78,7 @@ def main(fixture=None):
     assert (ROOT/'history.json').stat().st_size<=524288
     assert 'fetch-depth: 0' in (ROOT/'.github/workflows/normalize-card-history.yml').read_text()
     report={'result':'pass','sourceCommit':SOURCE,'oldPluginBase':'78ce6fdc4e70f689880a70d6f22aa77a6c75e337',
-            'currentCards':35,'currentCatalogueByteIdentical':True,
+            'currentCards':35,'currentCatalogueByteIdentical':False,'approvedDisplayTextRepair':['FP1_002'],
             'legacyDateCases':len(cases),'artURLChecks':art_checks,'preservedAssetFiles':len(assets),
             'missingAssets':0,'rootHistoryBytes':(ROOT/'history.json').stat().st_size,
             'preciseHistoryBytes':(ROOT/'history-date.json').stat().st_size,

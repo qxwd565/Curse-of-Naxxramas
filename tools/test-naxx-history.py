@@ -84,6 +84,11 @@ for cid,doc in docs.items():
  expected=copy.deepcopy(original[cid]);expected.pop('history',None)
  for field in ('text','flavor'):
   if field in expected:expected[field]=norm(expected[field])
+ # A later one-time display-only fix changed a Korean underscore to a space.
+ # This exception is restricted to FP1_002 and must not alter native evidence.
+ if cid=='FP1_002':
+  assert '죽음의_메아리' in expected['text']
+  expected['text']=expected['text'].replace('죽음의_메아리','죽음의 메아리')
  # Only two non-formatting/current semantic corrections in this pass.
  if cid=='FP1_025':expected['text']=sources['37.0.2']['after']
  if cid=='FP1_008':expected['mechanics']=['ELUSIVE']
