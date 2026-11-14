@@ -8,9 +8,17 @@ Korean card API with date-first canonical data in `data/<CARD_ID>.json` and loss
 - Exact initial Korean wording remains incomplete for 23 cards. All full baseline confidence stays partial. No unknown cosmetic date is invented.
 - Four source `mechanics` annotation errors are corrected in canonical/precise states using 15 archived client snapshots. Original JSON and old-client behavior remain preserved.
 
-Existing clients keep `cards.json`, `render.json` and `history.json`. The current root catalog is byte-identical to the pinned pre-migration catalog. Precise opt-in clients use `cards-date.json`, `render-date.json` and `history-date.json`, with `historySchema: 2` for authoritative state and field removal. All six remain at the root so artwork links retain their base. Do not configure the old plugin to use the precise endpoints.
+API 제공 파일은 `cards.json`(카드 목록 및 현재 표시 정보), `data/<카드ID>.json`(한국 날짜별 최초 사용 및 변경 내용), `art/`, `golden/`, `frame/`(존재하는 경우)입니다. 이전 집계용 `render.json`, `history.json`, `cards-date.json`, `render-date.json`, `history-date.json`은 게시하지 않습니다. 생성기의 임시 검증 출력으로만 사용합니다. HSdeck-plugin은 카드별 날짜 JSON을 직접 사용합니다.
 
-Run `python3 tools/build-api.py` and the validation commands in [docs/date-schema.md](docs/date-schema.md). No plugin, database or site changes are required for the existing endpoints. [BALANCE-AUDIT.md](BALANCE-AUDIT.md) records the earlier bounded audit; [tools/naxx-date-recheck.json](tools/naxx-date-recheck.json) adds the new date-source review and limitations.
+## 편집 및 경량화 지침
+
+- 사용 가능한 첫날을 **한국 날짜(YYYY-MM-DD)**로 기록합니다. 베타는 북미 첫 실사용을 한국 시간으로 변환하고, 모험모드는 각 지구 실제 개방일, 이벤트는 실제 개시일을 사용합니다. 사전 클라이언트 탑재일을 출시일로 기록하지 않습니다.
+- `data/<카드ID>.json`의 첫 날짜에는 최초 상태, 후속 날짜에는 변경된 필드만 기록합니다. 과거 오기입은 새 키만 추가하지 말고 **오류 키 자체를 삭제·통합**합니다. 토큰·자식 카드도 검증합니다.
+- 카드 능력치·효과·직업·종족·설명·원화 링크·일반/황금 카드·애니메이션·프레임 의존성은 무손실 보존합니다. `<br></br>` 줄바꿈을 사용하고 실제 원시 증거는 임의 치환하지 않습니다.
+- `cards.json`은 카드 ID/DBF ID 및 현재 목록 표시용이고, 날짜별 정보의 단일 원본은 `data/`입니다. `render*.json`, `history*.json`, `cards-date.json`을 다시 커밋하지 않습니다. 불필요한 schema/호환 래퍼를 새로 만들지 않습니다.
+- `metadata/`, `tools/`, `.github/`에는 **날짜 근거 검증과 빌드 재현을 위해 실제 참조되는 내용만** 유지합니다. 검증을 완료하지 않은 근거를 임의 삭제하거나 추정 날짜를 '검증됨'으로 변경하지 않습니다.
+- 공개 카드 데이터 외의 진단·호환용 집계 파일이 다시 만들어지는 경우 저장소에서 제외하고 빌드 및 테스트를 수정합니다. 프레임/황금 애니메이션 바이너리는 임의 재인코딩하지 않습니다.
+
 
 ## 최초 출시일 재검증 (2026-11-13)
 

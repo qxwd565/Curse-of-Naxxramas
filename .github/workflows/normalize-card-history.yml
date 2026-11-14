@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- cards.json render.json history.json cards-date.json render-date.json history-date.json data metadata tools/*validation.json tools/legacy-compatibility-losses.json
+          git add -- cards.json data metadata tools/*validation.json tools/legacy-compatibility-losses.json
           if ! git diff --cached --quiet; then
             git commit -m "Publish card API indexes [skip ci]"
             git push
